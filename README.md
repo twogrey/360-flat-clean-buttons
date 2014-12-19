@@ -1,7 +1,8 @@
 ## 360-flat-clean-buttons
 
-
 A collection of over 360+ pure CSS3 buttons
+
+![preview](/preview/preview.jpg)
 
 ### Description
 
@@ -44,3 +45,5 @@ These buttons are fully customizable, just playing with their classes. As its na
   - The font icon used here is Foundation Icon Fonts 3 (280+ icons), but you can add your own. 
 - Works on &lt;button&gt;, &lt;a&gt; and &lt;span&gt;
 - Contains a complete documentation
+
+### Preview
