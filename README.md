@@ -46,4 +46,6 @@ These buttons are fully customizable, just playing with their classes. As its na
 - Works on &lt;button&gt;, &lt;a&gt; and &lt;span&gt;
 - Contains a complete documentation
 
-### Preview
+### Some examples
+
+![example](/preview/screenshots/7.jpg)
