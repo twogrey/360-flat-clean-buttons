@@ -1,0 +1,324 @@
+@import "compass";
+
+/* Border radius
+********************************************************************/
+
+$light-radius: 3px;
+$normal-radius: 10px;
+$round-radius: 50px; 
+
+/* Colors (from the excellent FlatUiColors http://flatuicolors.com/)
+********************************************************************/
+
+// Alizarin (Red)
+$red: #e74c3c; 
+
+// Peter River (Blue)
+$blue: #3498db;
+
+// Emerald (Green)
+$green: #2ecc71;
+
+// Wet Asphalt (Black)
+$black: #34495e;
+
+// Cascade (Grey), this time from http://www.flatuicolorpicker.com/
+$grey: #95a5a6;
+
+// Amethyst (Purple)
+$purple: #9b59b6;
+
+// Carrot (Orange)
+$orange: #e67e22;
+
+// Sun Flower (Yellow)
+$yellow: #f1c40f;
+
+// Turquoise (Turquoise)
+$turquoise: #1abc9c;
+
+// Cabaret (Pink)
+$pink: #d2527f;
+
+
+/* Size
+*************************/
+
+@mixin size($size,$padding) {
+
+	$fontsize: $size;
+		$small-fontsize: $fontsize*0.75;
+		$medium-fontsize: $fontsize*0.9;
+		$normal-fontsize: $fontsize;
+		$big-fontsize: $fontsize*1.4;
+
+		$small-lineheight: $small-fontsize*2.65;
+		$medium-lineheight: $medium-fontsize*3.06;
+		$normal-lineheight: $normal-fontsize*3.4;
+		$big-lineheight: $big-fontsize*2.8;
+
+		$small-padding: $padding*0.55;
+		$medium-padding: $padding*0.7;
+		$normal-padding: $padding;
+		$big-padding: $padding*1.2;
+
+		$small-iconsize: $small-fontsize*1.2;
+		$medium-iconsize: $medium-fontsize*1.4;
+		$normal-iconsize: $normal-fontsize*1.6;
+		$big-iconsize: $big-fontsize*1.8;
+
+		$small-icon-paddingright: $small-padding*0.6;
+		$medium-icon-paddingright: $medium-padding*0.6;
+		$normal-icon-paddingright: $normal-padding*0.6;
+		$big-icon-paddingright: $big-padding*0.6;
+
+	padding: 0 $normal-padding;
+	font-size: $normal-fontsize;
+	line-height: $normal-lineheight;
+
+	&:before {
+		font-size: $normal-iconsize;
+		float: left;
+		line-height: $normal-lineheight;
+		margin-right: $normal-icon-paddingright;
+	}
+	&.small {
+		padding: 0 $small-padding;
+		font-size: $small-fontsize;
+		line-height: $small-lineheight;
+		&:before {
+			font-size: $small-iconsize;
+			line-height: $small-lineheight;
+			margin-right: $small-icon-paddingright;
+		}
+	}
+	&.medium {
+		padding: 0 $medium-padding;
+		font-size: $medium-fontsize;
+		line-height: $medium-lineheight;
+		&:before {
+			font-size: $medium-iconsize;
+			line-height: $medium-lineheight;
+			margin-right: $medium-icon-paddingright;
+		}
+	}
+	&.big {
+		padding: 0 $big-padding;
+		font-size: $big-fontsize;
+		line-height: $big-lineheight;
+		&:before {
+			font-size: $big-iconsize;
+			line-height: $big-lineheight;
+			margin-right: $big-icon-paddingright;
+		}
+	}
+	&.only-icon {
+		padding: 0;
+		line-height: $normal-lineheight; 
+		height: $normal-lineheight;
+		width: $normal-lineheight;
+		&:before {
+			float: none;
+			line-height: inherit;
+			margin-right: 0;
+			text-align: center;
+		}
+		&.small { width: $small-lineheight; height: $small-lineheight; line-height: $small-lineheight; }
+		&.medium { width: $medium-lineheight; height: $medium-lineheight; line-height: $medium-lineheight; }
+		&.big { width: $big-lineheight; height: $big-lineheight; line-height: $big-lineheight; }
+	}
+	&[class*="hover3"] {
+		padding-left: 0;
+		&:before {
+			padding: 0;
+			width: $normal-icon-paddingright*4;
+			margin-right: $normal-icon-paddingright*2;
+		}
+		&.small {
+			&:before {
+				width: $small-icon-paddingright*4;
+				margin-right: $small-icon-paddingright*2;
+			}
+		}
+		&.medium {
+			&:before {
+				width: $medium-icon-paddingright*4;
+				margin-right: $medium-icon-paddingright*2;
+			}
+		}
+		&.big {
+			&:before {
+				width: $big-icon-paddingright*4;
+				margin-right: $big-icon-paddingright*2;
+			}
+		}
+		&:after {
+			width: $normal-fontsize*0.7;
+			height: $normal-fontsize*0.7;
+			left: $normal-icon-paddingright*4-($normal-fontsize*0.5*0.7);
+			top: $normal-lineheight/2-($normal-fontsize*0.5*0.7);
+		}
+		&.small {
+			&:after {
+				width: $small-fontsize*0.7;
+				height: $small-fontsize*0.7;
+				left: $small-icon-paddingright*4-($small-fontsize*0.5*0.75);
+				top: $small-lineheight/2-($small-fontsize*0.5*0.7);
+			}
+		}
+		&.medium {
+			&:after {
+				width: $medium-fontsize*0.7;
+				height: $medium-fontsize*0.7;
+				left: $medium-icon-paddingright*4-($medium-fontsize*0.5*0.7);
+				top: $medium-lineheight/2-($medium-fontsize*0.5*0.7);
+			}
+		}
+		&.big {
+			&:after {
+				width: $big-fontsize*0.7;
+				height: $big-fontsize*0.7;
+				left: $big-icon-paddingright*4-($big-fontsize*0.5*0.7);
+				top: $big-lineheight/2-($big-fontsize*0.5*0.7);
+			}
+		}
+		&:active {
+			&:after {
+				width: $normal-fontsize;
+				height: $normal-fontsize;
+				left: $normal-icon-paddingright*4-($normal-fontsize*0.5);
+				top: $normal-lineheight/2-($normal-fontsize*0.5);
+			}
+		}
+		&.small {
+			&:active {
+				&:after {
+					width: $small-fontsize;
+					height: $small-fontsize;
+					left: $small-icon-paddingright*4-($small-fontsize*0.5);
+					top: $small-lineheight/2-($small-fontsize*0.5);
+				}
+			}
+		}
+		&.medium {
+			&:active {
+				&:after {
+					width: $medium-fontsize;
+					height: $medium-fontsize;
+					left: $medium-icon-paddingright*4-($medium-fontsize*0.5);
+					top: $medium-lineheight/2-($medium-fontsize*0.5);
+				}
+			}
+		}
+		&.big {
+			&:active {
+				&:after {
+					width: $big-fontsize;
+					height: $big-fontsize;
+					left: $big-icon-paddingright*4-($big-fontsize*0.5);
+					top: $big-lineheight/2-($big-fontsize*0.5);
+				}
+			}
+		}
+	}
+	&.gymicon {
+		&.burst {
+			overflow: hidden;
+			&:before {
+				position: relative;
+				z-index: 2;
+			}
+			&:after {
+				content:'';
+				background-color: white;
+				position: absolute;
+				z-index: 1;
+				width: $normal-fontsize*5;
+				height: $normal-fontsize*5;
+				left: -$normal-icon-paddingright;
+				top: 50%;
+				@include transform(translateY(-50%) scale(0));
+				@include border-radius(100px);
+				@include opacity(1);
+				@include transition(all .3s);
+			}
+			&.small {
+				&:after {
+					width: $small-fontsize*5;
+					height: $small-fontsize*5;
+					left: -$small-icon-paddingright;
+				}
+			}
+			&.medium {
+				&:after {
+					width: $medium-fontsize*5;
+					height: $medium-fontsize*5;
+					left: -$medium-icon-paddingright;
+				}
+			}
+			&.big {
+				&:after {
+					width: $big-fontsize*5;
+					height: $big-fontsize*5;
+					left: -$big-icon-paddingright;
+				}
+			}
+			&:hover { 
+				&:after {
+					@include opacity(0);
+					@include transform(translateY(-50%) scale(1));
+					@include transition(all .6s);
+				}
+			}
+			&.only-icon {
+				&:after {
+					left: 50%;
+					@include transform(translate(-50%,-50%) scale(0));
+				}
+				&:hover {
+					&:after {
+						@include transform(translate(-50%,-50%) scale(1));
+					}
+				}
+			}
+		}
+	}
+	&.vertical { 
+		$vertical-small-lineheight: $small-lineheight*0.8;
+		$vertical-medium-lineheight: $medium-lineheight*0.8;
+		$vertical-normal-lineheight: $normal-lineheight*0.8;
+		$vertical-big-lineheight: $big-lineheight*0.8;
+		line-height: 1;
+		&:before {
+			float: none;
+			display: block;
+			margin-right: 0;
+			line-height: $vertical-normal-lineheight;
+		}
+		span {
+			display: block;
+			margin-bottom: 0;
+			line-height: $vertical-normal-lineheight;
+		}
+		&.small {
+			&:before, span { line-height: $vertical-small-lineheight; }
+		}
+		&.medium {
+			&:before, span { line-height: $vertical-medium-lineheight; }
+		}
+		&.big {
+			&:before, span { line-height: $vertical-big-lineheight; }
+		}
+		&.style2 {
+			padding: 0;
+			span {
+				padding: 0 $normal-padding;
+			}
+			&:active {
+				span {
+					top: 3px;
+				}
+			}
+		}
+	}
+}

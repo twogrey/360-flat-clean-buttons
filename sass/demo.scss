@@ -1,0 +1,50 @@
+@import "base";
+
+body {
+	background: url('../img/background.png') repeat;
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.separator-panel {
+	margin: 0 auto;
+	width: 10px;
+	height: 10px;
+	background-color: $grey;
+	border-radius: 10px;
+}
+
+.panel {
+	margin-top: 20px;
+	padding-bottom: 0;
+	background-color: white;
+	&.panel-color {
+		button, a.holy, span.holy {
+			width: 160px;
+		}
+	}
+	:last-child {
+		margin-bottom: 1.25rem;
+	}
+	> h2 {
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	> h4 {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+	a + h4 {
+		margin-top: 0;
+	}
+	h5 {
+		font-size: 1rem;
+		margin-top: 0;
+		margin-bottom: 1rem;
+		color: $grey;
+	}
+	button, a.holy, span.holy {
+		margin: 0 1.25rem 1.25rem 0;
+		vertical-align: bottom;
+	}
+}
