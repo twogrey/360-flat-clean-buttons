@@ -9,7 +9,7 @@ A collection of over 360+ pure CSS3 buttons
 These buttons are fully customizable, just playing with their classes. As its name suggests, there are over 360 possibilities (without considering the color variation). Their effects don't use image and js, they are 'pure CSS'.
 
 ### Features
-- 5 styles :
+- **5 styles** :
   - Simple
   - White Blow
   - 3 Dimensions
@@ -38,7 +38,7 @@ These buttons are fully customizable, just playing with their classes. As its na
   - Black
 - Smooth transitions with hover/active effects
 - Easy to customize :
-  - Create your own buttons by mixing and matching the classes ! They are tons of combos.
+  - Create your own buttons by mixing and matching the classes ! There are tons of combos.
 - Built with SASS :
   - If you are front developer too, you can easily add your own colors, your own sizes, your own icons, etc...
 - Embellish these buttons with icons, or not ;)
