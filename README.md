@@ -15,17 +15,17 @@ These buttons are fully customizable, just playing with their classes. As its na
   - 3 Dimensions
   - Gym'Icon
   - Vertical
-- 4 sizes available :
+- **4 sizes** available :
   - Small
   - Medium
   - Normal
   - Big
-- 4 corner radius styles :
+- **4 corner radius styles** :
   - None
   - Lighh
   - Normal
   - Round
-- 10 base colors :
+- **10 base colors** :
   - Red
   - Orange
   - Yellow
@@ -36,15 +36,15 @@ These buttons are fully customizable, just playing with their classes. As its na
   - Purple
   - Grey
   - Black
-- Smooth transitions with hover/active effects
-- Easy to customize :
+- **Smooth transitions** with hover/active effects
+- **Easy to customize** :
   - Create your own buttons by mixing and matching the classes ! There are tons of combos.
-- Built with SASS :
+- **Built with SASS** :
   - If you are front developer too, you can easily add your own colors, your own sizes, your own icons, etc...
-- Embellish these buttons with icons, or not ;)
+- Embellish these buttons with **icons**, or not ;)
   - The font icon used here is Foundation Icon Fonts 3 (280+ icons), but you can add your own. 
-- Works on &lt;button&gt;, &lt;a&gt; and &lt;span&gt;
-- Contains a complete documentation
+- Works on **&lt;button&gt;**, **&lt;a&gt;** and **&lt;span&gt;**
+- **Contains a complete documentation**
 
 ### Some examples
 
