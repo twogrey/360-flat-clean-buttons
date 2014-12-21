@@ -8,6 +8,10 @@ A collection of over 360+ pure CSS3 buttons
 
 These buttons are fully customizable, just playing with their classes. As its name suggests, there are over 360 possibilities (without considering the color variation). Their effects don't use image and js, they are 'pure CSS'.
 
+### Demo
+
+You can the see a live preview here : http://alexisdegryse.fr/misc/ichibtn/
+
 ### Features
 - **5 styles** :
   - Simple
