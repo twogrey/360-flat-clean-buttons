@@ -10,7 +10,7 @@ These buttons are fully customizable, just playing with their classes. As its na
 
 ### Demo
 
-You can the see a live preview here : http://alexisdegryse.fr/misc/ichibtn/
+You can the see a live preview here : http://twogrey.github.io/360-flat-clean-buttons/
 
 ### Features
 - **5 styles** :
