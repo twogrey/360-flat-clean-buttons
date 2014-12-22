@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Holy Buttons</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Reset CSS (not required to use Holy buttons, just use your own reset css) -->
+
+    <link rel="stylesheet" href="css/foundation/foundation.css" />
+    <!-- Foundation 5 (not required to use Holy buttons) -->
+
+    <link rel="stylesheet" href="css/foundation/foundation-icons.css" />
+    <!-- Foundation Icon Font v3 (not required to use Holy buttons, you can use your own font icon) -->
+
+    <link rel="stylesheet" href="css/demo.css" />
+    <!-- Just for the demo preview (not required to use Holy buttons) -->
+
+    <!-- These 2 CSS files below are required for Holy buttons -->
+
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Global styles -->
+
+    <link rel="stylesheet" href="css/color.css" />
+    <!-- Variations Colors -->
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="small-12 columns">
+            <div class="magellan-container" data-magellan-expedition="fixed">
+                <dl class="sub-nav">
+                    <dd data-magellan-arrival="stylecolor"><a href="#stylecolor">Color variation</a>
+                    </dd>
+                    <dd data-magellan-arrival="style1"><a href="#style1">#1. Simple</a>
+                    </dd>
+                    <dd data-magellan-arrival="style2"><a href="#style2">#2. White Blow</a>
+                    </dd>
+                    <dd data-magellan-arrival="style3"><a href="#style3">#3. 3 Dimensions</a>
+                    </dd>
+                    <dd data-magellan-arrival="style4"><a href="#style4">#4 Gym'Icon</a>
+                    </dd>
+                    <dd data-magellan-arrival="style5"><a href="#style5">#5 Vertical</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 columns">
+            <div class="panel panel-color">
+                <a id="stylecolor"></a>
+                <h4 data-magellan-destination="stylecolor">Color variation</h4>
+                <button class="holy simple red">Red</button>
+                <button class="holy simple orange">Orange</button>
+                <button class="holy simple yellow">Yellow</button>
+                <button class="holy simple blue">Blue</button>
+                <button class="holy simple green">Green</button>
+                <button class="holy simple turquoise">Turquoise</button>
+                <button class="holy simple pink">Pink</button>
+                <button class="holy simple purple">Purple</button>
+                <button class="holy simple grey">grey</button>
+                <button class="holy simple black">Black</button>
+            </div>
+
+            <div class="separator-panel"></div>
+
+
+            <div class="panel test">
+
+                <hr>
+                <a id="style1"></a>
+                <h2 data-magellan-destination="style1">Simple</h2>
+                <hr>
+                <h4>Corner radius</h4>
+                <button class="holy simple blue">No radius</button>
+                <button class="holy simple blue light-radius">Light radius</button>
+                <button class="holy simple blue normal-radius">Normal radius</button>
+                <button class="holy simple blue round-radius">Round radius</button>
+
+                <h4>4 sizes</h4>
+                <button class="holy simple blue small">Small</button>
+                <button class="holy simple blue medium">Medium</button>
+                <button class="holy simple blue">Normal (default size)</button>
+                <button class="holy simple blue big">Big</button>
+
+                <h4>With icons</h4>
+                <button class="holy simple fi-x black light-radius small">Close</button>
+                <button class="holy simple fi-music light-radius turquoise medium">Buy album</button>
+                <button class="holy simple fi-check light-radius purple">Submit</button>
+                <button class="holy simple fi-download light-radius red big">Download app</button>
+
+                <h4>Without text</h4>
+                <button class="holy simple fi-rss orange small light-radius only-icon"></button>
+                <button class="holy simple fi-widget grey medium light-radius only-icon"></button>
+                <button class="holy simple fi-marker green light-radius only-icon"></button>
+                <button class="holy simple fi-loop black big light-radius only-icon"></button>
+                <button class="holy simple fi-loop black big only-icon round-radius"></button>
+                <button class="holy simple fi-marker green only-icon round-radius"></button>
+                <button class="holy simple fi-widget grey medium only-icon round-radius"></button>
+                <button class="holy simple fi-rss orange small only-icon round-radius"></button>
+
+                <h4>Some examples</h4>
+                <button class="holy simple fi-torso grey big normal-radius only-icon"></button>
+                <button class="holy simple fi-like blue">I Like It !</button>
+                <button class="holy simple fi-zoom-in black normal-radius">Zoom in</button>
+                <button class="holy simple fi-bookmark yellow big light-radius">Bookmark</button>
+                <button class="holy simple fi-plus green small only-icon round-radius"></button>
+                <button class="holy simple fi-minus red small only-icon round-radius"></button>
+            </div>
+
+            <div class="separator-panel"></div>
+
+            <div class="panel">
+                <hr>
+                <a id="style2"></a>
+                <h2 data-magellan-destination="style2">White Blow</h2>
+                <hr>
+
+                <h4>Base</h4>
+                <button class="holy wb blue small light-radius">Small</button>
+                <button class="holy wb blue medium light-radius">Medium</button>
+                <button class="holy wb blue light-radius">Normal (default size)</button>
+                <button class="holy wb blue big light-radius">Big</button>
+                <br>
+                <button class="holy wb blue">No radius</button>
+                <button class="holy wb blue light-radius">Light radius</button>
+                <button class="holy wb blue normal-radius">Normal radius</button>
+                <button class="holy wb blue round-radius">Round radius</button>
+                <br>
+                <button class="holy wb blue fi-home light-radius">With icon</button>
+                <button class="holy wb blue fi-flag only-icon round-radius"></button>
+
+                <h4>Hover effect #1</h4>
+                <h5>This effect needs a &lt;span&gt; as child</h5>
+                <button class="holy wb red light-radius medium fi-arrow-up hover1-top">
+                    <span>To the top</span>
+                </button>
+                <button class="holy wb red light-radius medium fi-arrow-right hover1-right">
+                    <span>To the right</span>
+                </button>
+                <button class="holy wb red light-radius medium fi-arrow-down hover1-bottom">
+                    <span>To the bottom</span>
+                </button>
+                <button class="holy wb red light-radius medium fi-arrow-left hover1-left">
+                    <span>To the left</span>
+                </button>
+                <button class="holy wb red light-radius medium hover1-topleft">
+                    <span>To the top left</span>
+                </button>
+                <button class="holy wb red light-radius medium hover1-topright">
+                    <span>To the top right</span>
+                </button>
+                <button class="holy wb red light-radius medium hover1-bottomright">
+                    <span>To the bottom right</span>
+                </button>
+                <button class="holy wb red light-radius medium hover1-bottomleft">
+                    <span>To the bottom left</span>
+                </button>
+                <button class="holy wb red light-radius medium hover1-center">
+                    <span>From the center</span>
+                </button>
+                <button class="holy wb red round-radius medium fi-arrows-out only-icon hover1-center"></button>
+
+                <h4>Hover effect #2</h4>
+                <button class="holy wb purple medium hover2">Radius and shadow</button>
+                <button class="holy wb purple light-radius medium hover2">are changing</button>
+                <button class="holy wb purple normal-radius medium hover2">when you hover</button>
+                <button class="holy wb purple round-radius medium hover2">on this buttons</button>
+                <button class="holy wb purple fi-power only-icon normal-radius medium hover2"></button>
+
+                <h4>Hover (and active) effect #3</h4>
+                <h5>Works only with icon+text</h5>
+                <button class="holy wb turquoise normal-radius small fi-die-one hover3">Small</button>
+                <button class="holy wb turquoise normal-radius medium fi-die-two hover3">Medium</button>
+                <button class="holy wb turquoise normal-radius fi-die-three hover3">Normal</button>
+                <button class="holy wb turquoise normal-radius big fi-die-four hover3">Big</button>
+
+                <h4>Somes examples</h4>
+                <button class="holy wb pink round-radius medium fi-rewind hover1-left">
+                    <span>Rewind</span>
+                </button>
+                <button class="holy wb orange big fi-no-dogs hover3">No dogs here</button>
+                <button class="holy wb red round-radius big fi-prohibited only-icon hover2"></button>
+                <button class="holy wb blue light-radius fi-paypal hover1-topright">
+                    <span>Pay with Paypal</span>
+                </button>
+                <button class="holy wb black light-radius small fi-pencil hover3">Edit</button>
+
+            </div>
+
+            <div class="separator-panel"></div>
+
+            <div class="panel">
+                <hr>
+                <a id="style3"></a>
+                <h2 data-magellan-destination="style3">3 Dimensions</h2>
+                <hr>
+
+                <h4>Base</h4>
+                <button class="holy threeD blue small light-radius">Small</button>
+                <button class="holy threeD blue medium light-radius">Medium</button>
+                <button class="holy threeD blue light-radius">Normal (default size)</button>
+                <button class="holy threeD blue big light-radius">Big</button>
+                <br>
+                <button class="holy threeD blue">No radius</button>
+                <button class="holy threeD blue light-radius">Light radius</button>
+                <button class="holy threeD blue normal-radius">Normal radius</button>
+                <button class="holy threeD blue round-radius">Round radius</button>
+                <br>
+                <button class="holy threeD blue fi-home light-radius">With icon</button>
+                <button class="holy threeD blue fi-flag only-icon round-radius"></button>
+
+                <h4>Plain 3D</h4>
+                <button class="holy threeD green light-radius">Push it</button>
+                <button class="holy threeD style1-top green round-radius">Push it again</button>
+                <button class="holy threeD style1-left green">Push it more</button>
+                <button class="holy threeD style1-right fi-like green normal-radius">Yeah !</button>
+                <button class="holy threeD style1-top fi-arrow-up only-icon green round-radius"></button>
+                <button class="holy threeD fi-arrow-down only-icon green round-radius"></button>
+                <button class="holy threeD style1-left fi-arrow-left only-icon green normal-radius"></button>
+                <button class="holy threeD style1-right fi-arrow-right only-icon green normal-radius"></button>
+
+                <h4>Shadow 3D</h4>
+                <button class="holy threeD style2 round-radius pink">Please click me</button>
+                <button class="holy threeD style2 light-radius only-icon fi-list big pink"></button>
+                <button class="holy threeD style2 light-radius fi-heart small pink">Sexy</button>
+                <button class="holy threeD style2 round-radius fi-magnifying-glass only-icon medium pink"></button>
+
+                <h4>Real 3D</h4>
+                <button class="holy threeD style3 small fi-arrow-up light-radius only-icon black"></button>
+                <button class="holy threeD style3 small fi-arrow-right light-radius only-icon black"></button>
+                <button class="holy threeD style3 normal-radius grey">Select</button>
+                <button class="holy threeD style3 light-radius fi-play grey">Start</button>
+                <button class="holy threeD style3 big round-radius green">Y</button>
+                <button class="holy threeD style3 big round-radius blue">X</button>
+                <button class="holy threeD style3 big round-radius red">A</button>
+                <button class="holy threeD style3 big round-radius yellow">B</button>
+
+            </div>
+
+            <div class="separator-panel"></div>
+
+            <div class="panel">
+                <hr>
+                <a id="style4"></a>
+                <h2 data-magellan-destination="style4">Gym'Icon</h2>
+                <hr>
+
+                <h4>Rotate</h4>
+                <h5>Obviously, it doesn't work without an icon</h5>
+                <button class="holy simple gymicon rotate360 red fi-refresh">360°</button>
+                <button class="holy simple gymicon rotate180 red fi-refresh">180°</button>
+                <button class="holy simple gymicon rotate90 red fi-refresh">90°</button>
+                <button class="holy simple gymicon rotate360 red fi-refresh round-radius only-icon"></button>
+                <button class="holy simple gymicon rotate180 red fi-loop round-radius only-icon"></button>
+                <button class="holy simple gymicon rotate90 red fi-wrench round-radius only-icon"></button>
+
+                <h4>Move</h4>
+                <h5>Obviously, it doesn't work without an icon</h5>
+                <button class="holy simple gymicon move-left blue fi-arrow-left">Return</button>
+                <button class="holy simple gymicon move-left blue fi-arrow-right round-radius">Continue</button>
+                <button class="holy simple gymicon move-bottom blue fi-arrow-up normal-radius">Back to top</button>
+                <button class="holy simple gymicon move-top blue fi-shopping-cart normal-radius">Add to cart</button>
+                <button class="holy simple gymicon move-bottom blue fi-share only-icon normal-radius"></button>
+                <button class="holy simple gymicon move-left blue fi-social-facebook only-icon round-radius"></button>
+
+                <h4>Burst</h4>
+                <h5>Obviously, it doesn't work without an icon</h5>
+                <button class="holy simple gymicon burst orange fi-home">Go to homepage</button>
+                <button class="holy simple gymicon burst orange fi-page only-icon round-radius"></button>
+                <button class="holy simple gymicon burst orange fi-trash round-radius">Delete this element</button>
+
+                <h4>Animate</h4>
+                <h5>Obviously, it doesn't work without an icon</h5>
+                <button class="holy simple gymicon spin turquoise fi-loop only-icon round-radius"></button>
+                <button class="holy simple gymicon spin hover turquoise fi-loop round-radius">Spin</button>
+                <button class="holy simple gymicon levitate turquoise fi-cloud only-icon round-radius"></button>
+                <button class="holy simple gymicon levitate hover turquoise fi-cloud round-radius">Levitate</button>
+                <button class="holy simple gymicon shake turquoise fi-telephone only-icon round-radius"></button>
+                <button class="holy simple gymicon shake hover turquoise fi-telephone round-radius">Shake</button>
+                <button class="holy simple gymicon fade turquoise fi-alert only-icon round-radius"></button>
+                <button class="holy simple gymicon fade hover turquoise fi-alert round-radius">Fade</button>
+
+            </div>
+
+            <div class="separator-panel"></div>
+
+            <div class="panel">
+                <hr>
+                <a id="style5"></a>
+                <h2 data-magellan-destination="style5">Vertical</h2>
+                <hr>
+
+                <h4>#1 Style</h4>
+                <h5>This effect needs an icon and a &lt;span&gt; as child</h5>
+                <button class="holy simple vertical style1 small light-radius purple fi-magnifying-glass"><span>Search</span></button>
+                <button class="holy simple vertical style1 medium light-radius red fi-play-video"><span>Play video</span></button>
+                <button class="holy simple vertical style1 blue light-radius fi-folder"><span>Open folder</span></button>
+                <button class="holy simple vertical style1 big light-radius black fi-mail"><span>Send mail</span></button>
+
+                <h4>#2 Style</h4>
+                <h5>This effect needs an icon and a &lt;span&gt; as child</h5>
+                <button class="holy simple vertical style2 normal-radius green fi-check small"><span>Check</span></button>
+                <button class="holy simple vertical style2 normal-radius pink fi-heart medium"><span>Love it</span></button>
+                <button class="holy simple vertical style2 normal-radius grey fi-comment"><span>Leave a comment</span></button>
+                <button class="holy simple vertical style2 normal-radius orange fi-torso-business big"><span>Meet</span></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/foundation/vendor/min/jquery.min.js"></script>
+    <!-- v2.1.1 -->
+    <script src="js/foundation/vendor/fastclick.js"></script>
+    <!-- Remove the 300ms delay on touch screen (not required to use Holy buttons) -->
+    <script src="js/foundation/foundation.min.js"></script>
+    <!-- Foundation 5 (not required to use Holy buttons) -->
+    <script src="js/foundation/foundation/foundation.magellan.js"></script>
+    <!-- For navigation (not required to use Holy buttons) -->
+    <script src="js/demo.js"></script>
+    <!-- For navigation (not required to use Holy buttons) -->
+</body>
+
+</html>

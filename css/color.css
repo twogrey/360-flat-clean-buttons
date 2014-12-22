@@ -1,0 +1,3866 @@
+/* Border radius
+********************************************************************/
+/* Colors (from the excellent FlatUiColors http://flatuicolors.com/)
+********************************************************************/
+/* Size
+*************************/
+/* line 276, ../sass/color.scss */
+button.holy.red, a.holy.red, span.holy.red {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.red.simple, a.holy.red.simple, span.holy.red.simple {
+  background-color: #e74c3c;
+}
+/* line 11, ../sass/color.scss */
+button.holy.red.simple:hover, a.holy.red.simple:hover, span.holy.red.simple:hover {
+  background-color: #bf2718;
+}
+/* line 14, ../sass/color.scss */
+button.holy.red.simple:active, a.holy.red.simple:active, span.holy.red.simple:active {
+  background-color: #7b190f;
+}
+/* line 23, ../sass/color.scss */
+button.holy.red.wb, a.holy.red.wb, span.holy.red.wb {
+  background-color: white;
+  color: #e74c3c;
+  border: 2px solid #e74c3c;
+}
+/* line 27, ../sass/color.scss */
+button.holy.red.wb:hover, a.holy.red.wb:hover, span.holy.red.wb:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.red.wb:active, a.holy.red.wb:active, span.holy.red.wb:active {
+  background-color: #7b190f;
+  border-color: #7b190f;
+}
+/* line 36, ../sass/color.scss */
+button.holy.red.wb[class*="hover1-"]:hover, a.holy.red.wb[class*="hover1-"]:hover, span.holy.red.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.red.wb[class*="hover1-"]:after, a.holy.red.wb[class*="hover1-"]:after, span.holy.red.wb[class*="hover1-"]:after {
+  background-color: #e74c3c;
+}
+/* line 43, ../sass/color.scss */
+button.holy.red.wb[class*="hover1-"]:active:after, a.holy.red.wb[class*="hover1-"]:active:after, span.holy.red.wb[class*="hover1-"]:active:after {
+  background-color: #7b190f;
+}
+/* line 48, ../sass/color.scss */
+button.holy.red.wb[class*="hover2"], a.holy.red.wb[class*="hover2"], span.holy.red.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(231, 76, 60, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(231, 76, 60, 0);
+  box-shadow: inset 0 0 0 2px rgba(231, 76, 60, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.red.wb[class*="hover2"]:active, a.holy.red.wb[class*="hover2"]:active, span.holy.red.wb[class*="hover2"]:active {
+  background-color: #bf2718;
+  border-color: #bf2718;
+}
+/* line 54, ../sass/color.scss */
+button.holy.red.wb[class*="hover2"]:hover, a.holy.red.wb[class*="hover2"]:hover, span.holy.red.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #f8c9c4;
+  -webkit-box-shadow: inset 0 0 0 2px #f8c9c4;
+  box-shadow: inset 0 0 0 2px #f8c9c4;
+}
+/* line 57, ../sass/color.scss */
+button.holy.red.wb[class*="hover2"]:active, a.holy.red.wb[class*="hover2"]:active, span.holy.red.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #bf2718;
+  -webkit-box-shadow: inset 0 0 0 2px #bf2718;
+  box-shadow: inset 0 0 0 2px #bf2718;
+}
+/* line 62, ../sass/color.scss */
+button.holy.red.wb[class*="hover3"]:before, a.holy.red.wb[class*="hover3"]:before, span.holy.red.wb[class*="hover3"]:before {
+  border-right: 1px solid #e74c3c;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.red.wb[class*="hover3"]:after, a.holy.red.wb[class*="hover3"]:after, span.holy.red.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #e74c3c;
+  border-right: 1px solid #e74c3c;
+}
+/* line 72, ../sass/color.scss */
+button.holy.red.wb[class*="hover3"]:hover, a.holy.red.wb[class*="hover3"]:hover, span.holy.red.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #e74c3c;
+}
+/* line 75, ../sass/color.scss */
+button.holy.red.wb[class*="hover3"]:hover:before, a.holy.red.wb[class*="hover3"]:hover:before, span.holy.red.wb[class*="hover3"]:hover:before {
+  background-color: #e74c3c;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.red.wb[class*="hover3"]:hover:after, a.holy.red.wb[class*="hover3"]:hover:after, span.holy.red.wb[class*="hover3"]:hover:after {
+  background-color: #e74c3c;
+}
+/* line 83, ../sass/color.scss */
+button.holy.red.wb[class*="hover3"]:active, a.holy.red.wb[class*="hover3"]:active, span.holy.red.wb[class*="hover3"]:active {
+  color: #bf2718;
+  border-color: #bf2718;
+}
+/* line 86, ../sass/color.scss */
+button.holy.red.wb[class*="hover3"]:active:before, a.holy.red.wb[class*="hover3"]:active:before, span.holy.red.wb[class*="hover3"]:active:before {
+  background-color: #bf2718;
+  border-color: #bf2718;
+}
+/* line 90, ../sass/color.scss */
+button.holy.red.wb[class*="hover3"]:active:after, a.holy.red.wb[class*="hover3"]:active:after, span.holy.red.wb[class*="hover3"]:active:after {
+  background-color: #bf2718;
+  border-color: #bf2718;
+}
+/* line 102, ../sass/color.scss */
+button.holy.red.threeD, a.holy.red.threeD, span.holy.red.threeD {
+  background-color: #e74c3c;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.red.threeD:not([class*="style"]), a.holy.red.threeD:not([class*="style"]), span.holy.red.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #a82315;
+  -webkit-box-shadow: 0 5px #a82315;
+  box-shadow: 0 5px #a82315;
+}
+/* line 109, ../sass/color.scss */
+button.holy.red.threeD:not([class*="style"]):hover, a.holy.red.threeD:not([class*="style"]):hover, span.holy.red.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #a82315;
+  -webkit-box-shadow: 0 3px #a82315;
+  box-shadow: 0 3px #a82315;
+}
+/* line 113, ../sass/color.scss */
+button.holy.red.threeD:not([class*="style"]):active, a.holy.red.threeD:not([class*="style"]):active, span.holy.red.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #a82315;
+  -webkit-box-shadow: 0 0 #a82315;
+  box-shadow: 0 0 #a82315;
+}
+/* line 118, ../sass/color.scss */
+button.holy.red.threeD.style1-top, a.holy.red.threeD.style1-top, span.holy.red.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #a82315;
+  -webkit-box-shadow: 0 -5px #a82315;
+  box-shadow: 0 -5px #a82315;
+}
+/* line 121, ../sass/color.scss */
+button.holy.red.threeD.style1-top:hover, a.holy.red.threeD.style1-top:hover, span.holy.red.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #a82315;
+  -webkit-box-shadow: 0 -3px #a82315;
+  box-shadow: 0 -3px #a82315;
+}
+/* line 125, ../sass/color.scss */
+button.holy.red.threeD.style1-top:active, a.holy.red.threeD.style1-top:active, span.holy.red.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #a82315;
+  -webkit-box-shadow: 0 0 #a82315;
+  box-shadow: 0 0 #a82315;
+}
+/* line 130, ../sass/color.scss */
+button.holy.red.threeD.style1-left, a.holy.red.threeD.style1-left, span.holy.red.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #a82315;
+  -webkit-box-shadow: -5px 0 #a82315;
+  box-shadow: -5px 0 #a82315;
+}
+/* line 133, ../sass/color.scss */
+button.holy.red.threeD.style1-left:hover, a.holy.red.threeD.style1-left:hover, span.holy.red.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #a82315;
+  -webkit-box-shadow: -3px 0 #a82315;
+  box-shadow: -3px 0 #a82315;
+}
+/* line 137, ../sass/color.scss */
+button.holy.red.threeD.style1-left:active, a.holy.red.threeD.style1-left:active, span.holy.red.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #a82315;
+  -webkit-box-shadow: 0 0 #a82315;
+  box-shadow: 0 0 #a82315;
+}
+/* line 142, ../sass/color.scss */
+button.holy.red.threeD.style1-right, a.holy.red.threeD.style1-right, span.holy.red.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #a82315;
+  -webkit-box-shadow: 5px 0 #a82315;
+  box-shadow: 5px 0 #a82315;
+}
+/* line 145, ../sass/color.scss */
+button.holy.red.threeD.style1-right:hover, a.holy.red.threeD.style1-right:hover, span.holy.red.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #a82315;
+  -webkit-box-shadow: 3px 0 #a82315;
+  box-shadow: 3px 0 #a82315;
+}
+/* line 149, ../sass/color.scss */
+button.holy.red.threeD.style1-right:active, a.holy.red.threeD.style1-right:active, span.holy.red.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #a82315;
+  -webkit-box-shadow: 0 0 #a82315;
+  box-shadow: 0 0 #a82315;
+}
+/* line 154, ../sass/color.scss */
+button.holy.red.threeD.style2, a.holy.red.threeD.style2, span.holy.red.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #fbdedb;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #fbdedb;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #fbdedb;
+  background-image: -moz-linear-gradient(top, #ed7669, #e74c3c);
+  background-image: -webkit-linear-gradient(top, #ed7669, #e74c3c);
+  background-image: linear-gradient(to bottom, #ed7669, #e74c3c);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.red.threeD.style2:hover, a.holy.red.threeD.style2:hover, span.holy.red.threeD.style2:hover {
+  background-image: none;
+  background-color: #e74c3c;
+}
+/* line 163, ../sass/color.scss */
+button.holy.red.threeD.style2:active, a.holy.red.threeD.style2:active, span.holy.red.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #a82315, #ea6153);
+  background-image: -webkit-linear-gradient(top, #a82315, #ea6153);
+  background-image: linear-gradient(to bottom, #a82315, #ea6153);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #fbdedb;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #fbdedb;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #fbdedb;
+}
+/* line 169, ../sass/color.scss */
+button.holy.red.threeD.style3, a.holy.red.threeD.style3, span.holy.red.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #d62c1a, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #d62c1a, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #d62c1a, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #ed7669, #e74c3c);
+  background-image: -webkit-linear-gradient(top, #ed7669, #e74c3c);
+  background-image: linear-gradient(to bottom, #ed7669, #e74c3c);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.red.threeD.style3:hover, a.holy.red.threeD.style3:hover, span.holy.red.threeD.style3:hover {
+  background-image: none;
+  background-color: #e74c3c;
+}
+/* line 178, ../sass/color.scss */
+button.holy.red.threeD.style3:active, a.holy.red.threeD.style3:active, span.holy.red.threeD.style3:active {
+  top: 3px;
+  background-color: #e74c3c;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #d62c1a, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #d62c1a, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #d62c1a, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.red.gymicon[class*="move-"], a.holy.red.gymicon[class*="move-"], span.holy.red.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.red.gymicon[class*="move-"]:before, a.holy.red.gymicon[class*="move-"]:before, span.holy.red.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.red.gymicon.move-left:before, a.holy.red.gymicon.move-left:before, span.holy.red.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #a82315;
+}
+/* line 203, ../sass/color.scss */
+button.holy.red.gymicon.move-left:hover:before, a.holy.red.gymicon.move-left:hover:before, span.holy.red.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.red.gymicon.move-bottom:before, a.holy.red.gymicon.move-bottom:before, span.holy.red.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #a82315;
+}
+/* line 215, ../sass/color.scss */
+button.holy.red.gymicon.move-bottom:hover:before, a.holy.red.gymicon.move-bottom:hover:before, span.holy.red.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.red.gymicon.move-top:before, a.holy.red.gymicon.move-top:before, span.holy.red.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #a82315;
+}
+/* line 226, ../sass/color.scss */
+button.holy.red.gymicon.move-top:hover:before, a.holy.red.gymicon.move-top:hover:before, span.holy.red.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.red.vertical.style1:before, a.holy.red.vertical.style1:before, span.holy.red.vertical.style1:before {
+  border-bottom: 1px solid #a82315;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.red.vertical.style1 span, a.holy.red.vertical.style1 span, span.holy.red.vertical.style1 span {
+  border-top: 1px solid #f29f97;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.red.vertical.style1:hover:before, a.holy.red.vertical.style1:hover:before, span.holy.red.vertical.style1:hover:before {
+  border-bottom: 1px solid #7b190f;
+}
+/* line 243, ../sass/color.scss */
+button.holy.red.vertical.style1:hover span, a.holy.red.vertical.style1:hover span, span.holy.red.vertical.style1:hover span {
+  border-top: 1px solid #e74c3c;
+}
+/* line 246, ../sass/color.scss */
+button.holy.red.vertical.style1:active:before, a.holy.red.vertical.style1:active:before, span.holy.red.vertical.style1:active:before {
+  border-bottom: 1px solid #4d100a;
+}
+/* line 247, ../sass/color.scss */
+button.holy.red.vertical.style1:active span, a.holy.red.vertical.style1:active span, span.holy.red.vertical.style1:active span {
+  border-top: 1px solid #a82315;
+}
+/* line 250, ../sass/color.scss */
+button.holy.red.vertical.style2, a.holy.red.vertical.style2, span.holy.red.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #a82315, inset 0 0 1px #e74c3c, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #a82315, inset 0 0 1px #e74c3c, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #a82315, inset 0 0 1px #e74c3c, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #e74c3c 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #e74c3c 50%);
+  background-image: linear-gradient(#ffffff 50%, #e74c3c 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.red.vertical.style2:before, a.holy.red.vertical.style2:before, span.holy.red.vertical.style2:before {
+  color: #e74c3c;
+}
+/* line 257, ../sass/color.scss */
+button.holy.red.vertical.style2:hover, a.holy.red.vertical.style2:hover, span.holy.red.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #e43725 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #e43725 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #e43725 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.red.vertical.style2:hover:before, a.holy.red.vertical.style2:hover:before, span.holy.red.vertical.style2:hover:before {
+  color: #e43725;
+}
+/* line 263, ../sass/color.scss */
+button.holy.red.vertical.style2:active, a.holy.red.vertical.style2:active, span.holy.red.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #e43725, inset 0 0 1px #e74c3c, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #e43725, inset 0 0 1px #e74c3c, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #e43725, inset 0 0 1px #e74c3c, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #e43725 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #e43725 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #e43725 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.red.vertical.style2:active:before, a.holy.red.vertical.style2:active:before, span.holy.red.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #a82315;
+  -webkit-box-shadow: 0 5px 5px -3px #a82315;
+  box-shadow: 0 5px 5px -3px #a82315;
+}
+/* line 277, ../sass/color.scss */
+button.holy.blue, a.holy.blue, span.holy.blue {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.blue.simple, a.holy.blue.simple, span.holy.blue.simple {
+  background-color: #3498db;
+}
+/* line 11, ../sass/color.scss */
+button.holy.blue.simple:hover, a.holy.blue.simple:hover, span.holy.blue.simple:hover {
+  background-color: #1d6fa5;
+}
+/* line 14, ../sass/color.scss */
+button.holy.blue.simple:active, a.holy.blue.simple:active, span.holy.blue.simple:active {
+  background-color: #124364;
+}
+/* line 23, ../sass/color.scss */
+button.holy.blue.wb, a.holy.blue.wb, span.holy.blue.wb {
+  background-color: white;
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+/* line 27, ../sass/color.scss */
+button.holy.blue.wb:hover, a.holy.blue.wb:hover, span.holy.blue.wb:hover {
+  background-color: #3498db;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.blue.wb:active, a.holy.blue.wb:active, span.holy.blue.wb:active {
+  background-color: #124364;
+  border-color: #124364;
+}
+/* line 36, ../sass/color.scss */
+button.holy.blue.wb[class*="hover1-"]:hover, a.holy.blue.wb[class*="hover1-"]:hover, span.holy.blue.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.blue.wb[class*="hover1-"]:after, a.holy.blue.wb[class*="hover1-"]:after, span.holy.blue.wb[class*="hover1-"]:after {
+  background-color: #3498db;
+}
+/* line 43, ../sass/color.scss */
+button.holy.blue.wb[class*="hover1-"]:active:after, a.holy.blue.wb[class*="hover1-"]:active:after, span.holy.blue.wb[class*="hover1-"]:active:after {
+  background-color: #124364;
+}
+/* line 48, ../sass/color.scss */
+button.holy.blue.wb[class*="hover2"], a.holy.blue.wb[class*="hover2"], span.holy.blue.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(52, 152, 219, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(52, 152, 219, 0);
+  box-shadow: inset 0 0 0 2px rgba(52, 152, 219, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.blue.wb[class*="hover2"]:active, a.holy.blue.wb[class*="hover2"]:active, span.holy.blue.wb[class*="hover2"]:active {
+  background-color: #1d6fa5;
+  border-color: #1d6fa5;
+}
+/* line 54, ../sass/color.scss */
+button.holy.blue.wb[class*="hover2"]:hover, a.holy.blue.wb[class*="hover2"]:hover, span.holy.blue.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #b6daf2;
+  -webkit-box-shadow: inset 0 0 0 2px #b6daf2;
+  box-shadow: inset 0 0 0 2px #b6daf2;
+}
+/* line 57, ../sass/color.scss */
+button.holy.blue.wb[class*="hover2"]:active, a.holy.blue.wb[class*="hover2"]:active, span.holy.blue.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #1d6fa5;
+  -webkit-box-shadow: inset 0 0 0 2px #1d6fa5;
+  box-shadow: inset 0 0 0 2px #1d6fa5;
+}
+/* line 62, ../sass/color.scss */
+button.holy.blue.wb[class*="hover3"]:before, a.holy.blue.wb[class*="hover3"]:before, span.holy.blue.wb[class*="hover3"]:before {
+  border-right: 1px solid #3498db;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.blue.wb[class*="hover3"]:after, a.holy.blue.wb[class*="hover3"]:after, span.holy.blue.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #3498db;
+  border-right: 1px solid #3498db;
+}
+/* line 72, ../sass/color.scss */
+button.holy.blue.wb[class*="hover3"]:hover, a.holy.blue.wb[class*="hover3"]:hover, span.holy.blue.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #3498db;
+}
+/* line 75, ../sass/color.scss */
+button.holy.blue.wb[class*="hover3"]:hover:before, a.holy.blue.wb[class*="hover3"]:hover:before, span.holy.blue.wb[class*="hover3"]:hover:before {
+  background-color: #3498db;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.blue.wb[class*="hover3"]:hover:after, a.holy.blue.wb[class*="hover3"]:hover:after, span.holy.blue.wb[class*="hover3"]:hover:after {
+  background-color: #3498db;
+}
+/* line 83, ../sass/color.scss */
+button.holy.blue.wb[class*="hover3"]:active, a.holy.blue.wb[class*="hover3"]:active, span.holy.blue.wb[class*="hover3"]:active {
+  color: #1d6fa5;
+  border-color: #1d6fa5;
+}
+/* line 86, ../sass/color.scss */
+button.holy.blue.wb[class*="hover3"]:active:before, a.holy.blue.wb[class*="hover3"]:active:before, span.holy.blue.wb[class*="hover3"]:active:before {
+  background-color: #1d6fa5;
+  border-color: #1d6fa5;
+}
+/* line 90, ../sass/color.scss */
+button.holy.blue.wb[class*="hover3"]:active:after, a.holy.blue.wb[class*="hover3"]:active:after, span.holy.blue.wb[class*="hover3"]:active:after {
+  background-color: #1d6fa5;
+  border-color: #1d6fa5;
+}
+/* line 102, ../sass/color.scss */
+button.holy.blue.threeD, a.holy.blue.threeD, span.holy.blue.threeD {
+  background-color: #3498db;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.blue.threeD:not([class*="style"]), a.holy.blue.threeD:not([class*="style"]), span.holy.blue.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #196090;
+  -webkit-box-shadow: 0 5px #196090;
+  box-shadow: 0 5px #196090;
+}
+/* line 109, ../sass/color.scss */
+button.holy.blue.threeD:not([class*="style"]):hover, a.holy.blue.threeD:not([class*="style"]):hover, span.holy.blue.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #196090;
+  -webkit-box-shadow: 0 3px #196090;
+  box-shadow: 0 3px #196090;
+}
+/* line 113, ../sass/color.scss */
+button.holy.blue.threeD:not([class*="style"]):active, a.holy.blue.threeD:not([class*="style"]):active, span.holy.blue.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #196090;
+  -webkit-box-shadow: 0 0 #196090;
+  box-shadow: 0 0 #196090;
+}
+/* line 118, ../sass/color.scss */
+button.holy.blue.threeD.style1-top, a.holy.blue.threeD.style1-top, span.holy.blue.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #196090;
+  -webkit-box-shadow: 0 -5px #196090;
+  box-shadow: 0 -5px #196090;
+}
+/* line 121, ../sass/color.scss */
+button.holy.blue.threeD.style1-top:hover, a.holy.blue.threeD.style1-top:hover, span.holy.blue.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #196090;
+  -webkit-box-shadow: 0 -3px #196090;
+  box-shadow: 0 -3px #196090;
+}
+/* line 125, ../sass/color.scss */
+button.holy.blue.threeD.style1-top:active, a.holy.blue.threeD.style1-top:active, span.holy.blue.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #196090;
+  -webkit-box-shadow: 0 0 #196090;
+  box-shadow: 0 0 #196090;
+}
+/* line 130, ../sass/color.scss */
+button.holy.blue.threeD.style1-left, a.holy.blue.threeD.style1-left, span.holy.blue.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #196090;
+  -webkit-box-shadow: -5px 0 #196090;
+  box-shadow: -5px 0 #196090;
+}
+/* line 133, ../sass/color.scss */
+button.holy.blue.threeD.style1-left:hover, a.holy.blue.threeD.style1-left:hover, span.holy.blue.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #196090;
+  -webkit-box-shadow: -3px 0 #196090;
+  box-shadow: -3px 0 #196090;
+}
+/* line 137, ../sass/color.scss */
+button.holy.blue.threeD.style1-left:active, a.holy.blue.threeD.style1-left:active, span.holy.blue.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #196090;
+  -webkit-box-shadow: 0 0 #196090;
+  box-shadow: 0 0 #196090;
+}
+/* line 142, ../sass/color.scss */
+button.holy.blue.threeD.style1-right, a.holy.blue.threeD.style1-right, span.holy.blue.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #196090;
+  -webkit-box-shadow: 5px 0 #196090;
+  box-shadow: 5px 0 #196090;
+}
+/* line 145, ../sass/color.scss */
+button.holy.blue.threeD.style1-right:hover, a.holy.blue.threeD.style1-right:hover, span.holy.blue.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #196090;
+  -webkit-box-shadow: 3px 0 #196090;
+  box-shadow: 3px 0 #196090;
+}
+/* line 149, ../sass/color.scss */
+button.holy.blue.threeD.style1-right:active, a.holy.blue.threeD.style1-right:active, span.holy.blue.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #196090;
+  -webkit-box-shadow: 0 0 #196090;
+  box-shadow: 0 0 #196090;
+}
+/* line 154, ../sass/color.scss */
+button.holy.blue.threeD.style2, a.holy.blue.threeD.style2, span.holy.blue.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #cce5f6;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #cce5f6;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #cce5f6;
+  background-image: -moz-linear-gradient(top, #5faee3, #3498db);
+  background-image: -webkit-linear-gradient(top, #5faee3, #3498db);
+  background-image: linear-gradient(to bottom, #5faee3, #3498db);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.blue.threeD.style2:hover, a.holy.blue.threeD.style2:hover, span.holy.blue.threeD.style2:hover {
+  background-image: none;
+  background-color: #3498db;
+}
+/* line 163, ../sass/color.scss */
+button.holy.blue.threeD.style2:active, a.holy.blue.threeD.style2:active, span.holy.blue.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #196090, #4aa3df);
+  background-image: -webkit-linear-gradient(top, #196090, #4aa3df);
+  background-image: linear-gradient(to bottom, #196090, #4aa3df);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #cce5f6;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #cce5f6;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #cce5f6;
+}
+/* line 169, ../sass/color.scss */
+button.holy.blue.threeD.style3, a.holy.blue.threeD.style3, span.holy.blue.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #217dbb, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #217dbb, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #217dbb, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #5faee3, #3498db);
+  background-image: -webkit-linear-gradient(top, #5faee3, #3498db);
+  background-image: linear-gradient(to bottom, #5faee3, #3498db);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.blue.threeD.style3:hover, a.holy.blue.threeD.style3:hover, span.holy.blue.threeD.style3:hover {
+  background-image: none;
+  background-color: #3498db;
+}
+/* line 178, ../sass/color.scss */
+button.holy.blue.threeD.style3:active, a.holy.blue.threeD.style3:active, span.holy.blue.threeD.style3:active {
+  top: 3px;
+  background-color: #3498db;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #217dbb, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #217dbb, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #217dbb, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.blue.gymicon[class*="move-"], a.holy.blue.gymicon[class*="move-"], span.holy.blue.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.blue.gymicon[class*="move-"]:before, a.holy.blue.gymicon[class*="move-"]:before, span.holy.blue.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.blue.gymicon.move-left:before, a.holy.blue.gymicon.move-left:before, span.holy.blue.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #196090;
+}
+/* line 203, ../sass/color.scss */
+button.holy.blue.gymicon.move-left:hover:before, a.holy.blue.gymicon.move-left:hover:before, span.holy.blue.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.blue.gymicon.move-bottom:before, a.holy.blue.gymicon.move-bottom:before, span.holy.blue.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #196090;
+}
+/* line 215, ../sass/color.scss */
+button.holy.blue.gymicon.move-bottom:hover:before, a.holy.blue.gymicon.move-bottom:hover:before, span.holy.blue.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.blue.gymicon.move-top:before, a.holy.blue.gymicon.move-top:before, span.holy.blue.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #196090;
+}
+/* line 226, ../sass/color.scss */
+button.holy.blue.gymicon.move-top:hover:before, a.holy.blue.gymicon.move-top:hover:before, span.holy.blue.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.blue.vertical.style1:before, a.holy.blue.vertical.style1:before, span.holy.blue.vertical.style1:before {
+  border-bottom: 1px solid #196090;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.blue.vertical.style1 span, a.holy.blue.vertical.style1 span, span.holy.blue.vertical.style1 span {
+  border-top: 1px solid #8bc4ea;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.blue.vertical.style1:hover:before, a.holy.blue.vertical.style1:hover:before, span.holy.blue.vertical.style1:hover:before {
+  border-bottom: 1px solid #124364;
+}
+/* line 243, ../sass/color.scss */
+button.holy.blue.vertical.style1:hover span, a.holy.blue.vertical.style1:hover span, span.holy.blue.vertical.style1:hover span {
+  border-top: 1px solid #3498db;
+}
+/* line 246, ../sass/color.scss */
+button.holy.blue.vertical.style1:active:before, a.holy.blue.vertical.style1:active:before, span.holy.blue.vertical.style1:active:before {
+  border-bottom: 1px solid #0a2639;
+}
+/* line 247, ../sass/color.scss */
+button.holy.blue.vertical.style1:active span, a.holy.blue.vertical.style1:active span, span.holy.blue.vertical.style1:active span {
+  border-top: 1px solid #196090;
+}
+/* line 250, ../sass/color.scss */
+button.holy.blue.vertical.style2, a.holy.blue.vertical.style2, span.holy.blue.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #196090, inset 0 0 1px #3498db, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #196090, inset 0 0 1px #3498db, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #196090, inset 0 0 1px #3498db, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #3498db 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #3498db 50%);
+  background-image: linear-gradient(#ffffff 50%, #3498db 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.blue.vertical.style2:before, a.holy.blue.vertical.style2:before, span.holy.blue.vertical.style2:before {
+  color: #3498db;
+}
+/* line 257, ../sass/color.scss */
+button.holy.blue.vertical.style2:hover, a.holy.blue.vertical.style2:hover, span.holy.blue.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #258cd1 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #258cd1 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #258cd1 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.blue.vertical.style2:hover:before, a.holy.blue.vertical.style2:hover:before, span.holy.blue.vertical.style2:hover:before {
+  color: #258cd1;
+}
+/* line 263, ../sass/color.scss */
+button.holy.blue.vertical.style2:active, a.holy.blue.vertical.style2:active, span.holy.blue.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #258cd1, inset 0 0 1px #3498db, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #258cd1, inset 0 0 1px #3498db, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #258cd1, inset 0 0 1px #3498db, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #258cd1 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #258cd1 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #258cd1 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.blue.vertical.style2:active:before, a.holy.blue.vertical.style2:active:before, span.holy.blue.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #196090;
+  -webkit-box-shadow: 0 5px 5px -3px #196090;
+  box-shadow: 0 5px 5px -3px #196090;
+}
+/* line 278, ../sass/color.scss */
+button.holy.green, a.holy.green, span.holy.green {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.green.simple, a.holy.green.simple, span.holy.green.simple {
+  background-color: #2ecc71;
+}
+/* line 11, ../sass/color.scss */
+button.holy.green.simple:hover, a.holy.green.simple:hover, span.holy.green.simple:hover {
+  background-color: #208e4e;
+}
+/* line 14, ../sass/color.scss */
+button.holy.green.simple:active, a.holy.green.simple:active, span.holy.green.simple:active {
+  background-color: #124f2c;
+}
+/* line 23, ../sass/color.scss */
+button.holy.green.wb, a.holy.green.wb, span.holy.green.wb {
+  background-color: white;
+  color: #2ecc71;
+  border: 2px solid #2ecc71;
+}
+/* line 27, ../sass/color.scss */
+button.holy.green.wb:hover, a.holy.green.wb:hover, span.holy.green.wb:hover {
+  background-color: #2ecc71;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.green.wb:active, a.holy.green.wb:active, span.holy.green.wb:active {
+  background-color: #124f2c;
+  border-color: #124f2c;
+}
+/* line 36, ../sass/color.scss */
+button.holy.green.wb[class*="hover1-"]:hover, a.holy.green.wb[class*="hover1-"]:hover, span.holy.green.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.green.wb[class*="hover1-"]:after, a.holy.green.wb[class*="hover1-"]:after, span.holy.green.wb[class*="hover1-"]:after {
+  background-color: #2ecc71;
+}
+/* line 43, ../sass/color.scss */
+button.holy.green.wb[class*="hover1-"]:active:after, a.holy.green.wb[class*="hover1-"]:active:after, span.holy.green.wb[class*="hover1-"]:active:after {
+  background-color: #124f2c;
+}
+/* line 48, ../sass/color.scss */
+button.holy.green.wb[class*="hover2"], a.holy.green.wb[class*="hover2"], span.holy.green.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(46, 204, 113, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(46, 204, 113, 0);
+  box-shadow: inset 0 0 0 2px rgba(46, 204, 113, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.green.wb[class*="hover2"]:active, a.holy.green.wb[class*="hover2"]:active, span.holy.green.wb[class*="hover2"]:active {
+  background-color: #208e4e;
+  border-color: #208e4e;
+}
+/* line 54, ../sass/color.scss */
+button.holy.green.wb[class*="hover2"]:hover, a.holy.green.wb[class*="hover2"]:hover, span.holy.green.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #a8ebc4;
+  -webkit-box-shadow: inset 0 0 0 2px #a8ebc4;
+  box-shadow: inset 0 0 0 2px #a8ebc4;
+}
+/* line 57, ../sass/color.scss */
+button.holy.green.wb[class*="hover2"]:active, a.holy.green.wb[class*="hover2"]:active, span.holy.green.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #208e4e;
+  -webkit-box-shadow: inset 0 0 0 2px #208e4e;
+  box-shadow: inset 0 0 0 2px #208e4e;
+}
+/* line 62, ../sass/color.scss */
+button.holy.green.wb[class*="hover3"]:before, a.holy.green.wb[class*="hover3"]:before, span.holy.green.wb[class*="hover3"]:before {
+  border-right: 1px solid #2ecc71;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.green.wb[class*="hover3"]:after, a.holy.green.wb[class*="hover3"]:after, span.holy.green.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #2ecc71;
+  border-right: 1px solid #2ecc71;
+}
+/* line 72, ../sass/color.scss */
+button.holy.green.wb[class*="hover3"]:hover, a.holy.green.wb[class*="hover3"]:hover, span.holy.green.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #2ecc71;
+}
+/* line 75, ../sass/color.scss */
+button.holy.green.wb[class*="hover3"]:hover:before, a.holy.green.wb[class*="hover3"]:hover:before, span.holy.green.wb[class*="hover3"]:hover:before {
+  background-color: #2ecc71;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.green.wb[class*="hover3"]:hover:after, a.holy.green.wb[class*="hover3"]:hover:after, span.holy.green.wb[class*="hover3"]:hover:after {
+  background-color: #2ecc71;
+}
+/* line 83, ../sass/color.scss */
+button.holy.green.wb[class*="hover3"]:active, a.holy.green.wb[class*="hover3"]:active, span.holy.green.wb[class*="hover3"]:active {
+  color: #208e4e;
+  border-color: #208e4e;
+}
+/* line 86, ../sass/color.scss */
+button.holy.green.wb[class*="hover3"]:active:before, a.holy.green.wb[class*="hover3"]:active:before, span.holy.green.wb[class*="hover3"]:active:before {
+  background-color: #208e4e;
+  border-color: #208e4e;
+}
+/* line 90, ../sass/color.scss */
+button.holy.green.wb[class*="hover3"]:active:after, a.holy.green.wb[class*="hover3"]:active:after, span.holy.green.wb[class*="hover3"]:active:after {
+  background-color: #208e4e;
+  border-color: #208e4e;
+}
+/* line 102, ../sass/color.scss */
+button.holy.green.threeD, a.holy.green.threeD, span.holy.green.threeD {
+  background-color: #2ecc71;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.green.threeD:not([class*="style"]), a.holy.green.threeD:not([class*="style"]), span.holy.green.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #1b7943;
+  -webkit-box-shadow: 0 5px #1b7943;
+  box-shadow: 0 5px #1b7943;
+}
+/* line 109, ../sass/color.scss */
+button.holy.green.threeD:not([class*="style"]):hover, a.holy.green.threeD:not([class*="style"]):hover, span.holy.green.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #1b7943;
+  -webkit-box-shadow: 0 3px #1b7943;
+  box-shadow: 0 3px #1b7943;
+}
+/* line 113, ../sass/color.scss */
+button.holy.green.threeD:not([class*="style"]):active, a.holy.green.threeD:not([class*="style"]):active, span.holy.green.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #1b7943;
+  -webkit-box-shadow: 0 0 #1b7943;
+  box-shadow: 0 0 #1b7943;
+}
+/* line 118, ../sass/color.scss */
+button.holy.green.threeD.style1-top, a.holy.green.threeD.style1-top, span.holy.green.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #1b7943;
+  -webkit-box-shadow: 0 -5px #1b7943;
+  box-shadow: 0 -5px #1b7943;
+}
+/* line 121, ../sass/color.scss */
+button.holy.green.threeD.style1-top:hover, a.holy.green.threeD.style1-top:hover, span.holy.green.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #1b7943;
+  -webkit-box-shadow: 0 -3px #1b7943;
+  box-shadow: 0 -3px #1b7943;
+}
+/* line 125, ../sass/color.scss */
+button.holy.green.threeD.style1-top:active, a.holy.green.threeD.style1-top:active, span.holy.green.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #1b7943;
+  -webkit-box-shadow: 0 0 #1b7943;
+  box-shadow: 0 0 #1b7943;
+}
+/* line 130, ../sass/color.scss */
+button.holy.green.threeD.style1-left, a.holy.green.threeD.style1-left, span.holy.green.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #1b7943;
+  -webkit-box-shadow: -5px 0 #1b7943;
+  box-shadow: -5px 0 #1b7943;
+}
+/* line 133, ../sass/color.scss */
+button.holy.green.threeD.style1-left:hover, a.holy.green.threeD.style1-left:hover, span.holy.green.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #1b7943;
+  -webkit-box-shadow: -3px 0 #1b7943;
+  box-shadow: -3px 0 #1b7943;
+}
+/* line 137, ../sass/color.scss */
+button.holy.green.threeD.style1-left:active, a.holy.green.threeD.style1-left:active, span.holy.green.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #1b7943;
+  -webkit-box-shadow: 0 0 #1b7943;
+  box-shadow: 0 0 #1b7943;
+}
+/* line 142, ../sass/color.scss */
+button.holy.green.threeD.style1-right, a.holy.green.threeD.style1-right, span.holy.green.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #1b7943;
+  -webkit-box-shadow: 5px 0 #1b7943;
+  box-shadow: 5px 0 #1b7943;
+}
+/* line 145, ../sass/color.scss */
+button.holy.green.threeD.style1-right:hover, a.holy.green.threeD.style1-right:hover, span.holy.green.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #1b7943;
+  -webkit-box-shadow: 3px 0 #1b7943;
+  box-shadow: 3px 0 #1b7943;
+}
+/* line 149, ../sass/color.scss */
+button.holy.green.threeD.style1-right:active, a.holy.green.threeD.style1-right:active, span.holy.green.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #1b7943;
+  -webkit-box-shadow: 0 0 #1b7943;
+  box-shadow: 0 0 #1b7943;
+}
+/* line 154, ../sass/color.scss */
+button.holy.green.threeD.style2, a.holy.green.threeD.style2, span.holy.green.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #bcf0d2;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #bcf0d2;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #bcf0d2;
+  background-image: -moz-linear-gradient(top, #54d98c, #2ecc71);
+  background-image: -webkit-linear-gradient(top, #54d98c, #2ecc71);
+  background-image: linear-gradient(to bottom, #54d98c, #2ecc71);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.green.threeD.style2:hover, a.holy.green.threeD.style2:hover, span.holy.green.threeD.style2:hover {
+  background-image: none;
+  background-color: #2ecc71;
+}
+/* line 163, ../sass/color.scss */
+button.holy.green.threeD.style2:active, a.holy.green.threeD.style2:active, span.holy.green.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #1b7943, #40d47e);
+  background-image: -webkit-linear-gradient(top, #1b7943, #40d47e);
+  background-image: linear-gradient(to bottom, #1b7943, #40d47e);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #bcf0d2;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #bcf0d2;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #bcf0d2;
+}
+/* line 169, ../sass/color.scss */
+button.holy.green.threeD.style3, a.holy.green.threeD.style3, span.holy.green.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #25a25a, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #25a25a, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #25a25a, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #54d98c, #2ecc71);
+  background-image: -webkit-linear-gradient(top, #54d98c, #2ecc71);
+  background-image: linear-gradient(to bottom, #54d98c, #2ecc71);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.green.threeD.style3:hover, a.holy.green.threeD.style3:hover, span.holy.green.threeD.style3:hover {
+  background-image: none;
+  background-color: #2ecc71;
+}
+/* line 178, ../sass/color.scss */
+button.holy.green.threeD.style3:active, a.holy.green.threeD.style3:active, span.holy.green.threeD.style3:active {
+  top: 3px;
+  background-color: #2ecc71;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #25a25a, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #25a25a, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #25a25a, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.green.gymicon[class*="move-"], a.holy.green.gymicon[class*="move-"], span.holy.green.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.green.gymicon[class*="move-"]:before, a.holy.green.gymicon[class*="move-"]:before, span.holy.green.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.green.gymicon.move-left:before, a.holy.green.gymicon.move-left:before, span.holy.green.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #1b7943;
+}
+/* line 203, ../sass/color.scss */
+button.holy.green.gymicon.move-left:hover:before, a.holy.green.gymicon.move-left:hover:before, span.holy.green.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.green.gymicon.move-bottom:before, a.holy.green.gymicon.move-bottom:before, span.holy.green.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #1b7943;
+}
+/* line 215, ../sass/color.scss */
+button.holy.green.gymicon.move-bottom:hover:before, a.holy.green.gymicon.move-bottom:hover:before, span.holy.green.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.green.gymicon.move-top:before, a.holy.green.gymicon.move-top:before, span.holy.green.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #1b7943;
+}
+/* line 226, ../sass/color.scss */
+button.holy.green.gymicon.move-top:hover:before, a.holy.green.gymicon.move-top:hover:before, span.holy.green.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.green.vertical.style1:before, a.holy.green.vertical.style1:before, span.holy.green.vertical.style1:before {
+  border-bottom: 1px solid #1b7943;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.green.vertical.style1 span, a.holy.green.vertical.style1 span, span.holy.green.vertical.style1 span {
+  border-top: 1px solid #7ee2a8;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.green.vertical.style1:hover:before, a.holy.green.vertical.style1:hover:before, span.holy.green.vertical.style1:hover:before {
+  border-bottom: 1px solid #124f2c;
+}
+/* line 243, ../sass/color.scss */
+button.holy.green.vertical.style1:hover span, a.holy.green.vertical.style1:hover span, span.holy.green.vertical.style1:hover span {
+  border-top: 1px solid #2ecc71;
+}
+/* line 246, ../sass/color.scss */
+button.holy.green.vertical.style1:active:before, a.holy.green.vertical.style1:active:before, span.holy.green.vertical.style1:active:before {
+  border-bottom: 1px solid #082615;
+}
+/* line 247, ../sass/color.scss */
+button.holy.green.vertical.style1:active span, a.holy.green.vertical.style1:active span, span.holy.green.vertical.style1:active span {
+  border-top: 1px solid #1b7943;
+}
+/* line 250, ../sass/color.scss */
+button.holy.green.vertical.style2, a.holy.green.vertical.style2, span.holy.green.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #1b7943, inset 0 0 1px #2ecc71, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #1b7943, inset 0 0 1px #2ecc71, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #1b7943, inset 0 0 1px #2ecc71, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #2ecc71 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #2ecc71 50%);
+  background-image: linear-gradient(#ffffff 50%, #2ecc71 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.green.vertical.style2:before, a.holy.green.vertical.style2:before, span.holy.green.vertical.style2:before {
+  color: #2ecc71;
+}
+/* line 257, ../sass/color.scss */
+button.holy.green.vertical.style2:hover, a.holy.green.vertical.style2:hover, span.holy.green.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #29b765 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #29b765 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #29b765 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.green.vertical.style2:hover:before, a.holy.green.vertical.style2:hover:before, span.holy.green.vertical.style2:hover:before {
+  color: #29b765;
+}
+/* line 263, ../sass/color.scss */
+button.holy.green.vertical.style2:active, a.holy.green.vertical.style2:active, span.holy.green.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #29b765, inset 0 0 1px #2ecc71, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #29b765, inset 0 0 1px #2ecc71, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #29b765, inset 0 0 1px #2ecc71, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #29b765 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #29b765 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #29b765 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.green.vertical.style2:active:before, a.holy.green.vertical.style2:active:before, span.holy.green.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #1b7943;
+  -webkit-box-shadow: 0 5px 5px -3px #1b7943;
+  box-shadow: 0 5px 5px -3px #1b7943;
+}
+/* line 279, ../sass/color.scss */
+button.holy.black, a.holy.black, span.holy.black {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.black.simple, a.holy.black.simple, span.holy.black.simple {
+  background-color: #34495e;
+}
+/* line 11, ../sass/color.scss */
+button.holy.black.simple:hover, a.holy.black.simple:hover, span.holy.black.simple:hover {
+  background-color: #19232d;
+}
+/* line 14, ../sass/color.scss */
+button.holy.black.simple:active, a.holy.black.simple:active, span.holy.black.simple:active {
+  background-color: black;
+}
+/* line 23, ../sass/color.scss */
+button.holy.black.wb, a.holy.black.wb, span.holy.black.wb {
+  background-color: white;
+  color: #34495e;
+  border: 2px solid #34495e;
+}
+/* line 27, ../sass/color.scss */
+button.holy.black.wb:hover, a.holy.black.wb:hover, span.holy.black.wb:hover {
+  background-color: #34495e;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.black.wb:active, a.holy.black.wb:active, span.holy.black.wb:active {
+  background-color: black;
+  border-color: black;
+}
+/* line 36, ../sass/color.scss */
+button.holy.black.wb[class*="hover1-"]:hover, a.holy.black.wb[class*="hover1-"]:hover, span.holy.black.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.black.wb[class*="hover1-"]:after, a.holy.black.wb[class*="hover1-"]:after, span.holy.black.wb[class*="hover1-"]:after {
+  background-color: #34495e;
+}
+/* line 43, ../sass/color.scss */
+button.holy.black.wb[class*="hover1-"]:active:after, a.holy.black.wb[class*="hover1-"]:active:after, span.holy.black.wb[class*="hover1-"]:active:after {
+  background-color: black;
+}
+/* line 48, ../sass/color.scss */
+button.holy.black.wb[class*="hover2"], a.holy.black.wb[class*="hover2"], span.holy.black.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(52, 73, 94, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(52, 73, 94, 0);
+  box-shadow: inset 0 0 0 2px rgba(52, 73, 94, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.black.wb[class*="hover2"]:active, a.holy.black.wb[class*="hover2"]:active, span.holy.black.wb[class*="hover2"]:active {
+  background-color: #19232d;
+  border-color: #19232d;
+}
+/* line 54, ../sass/color.scss */
+button.holy.black.wb[class*="hover2"]:hover, a.holy.black.wb[class*="hover2"]:hover, span.holy.black.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #7795b4;
+  -webkit-box-shadow: inset 0 0 0 2px #7795b4;
+  box-shadow: inset 0 0 0 2px #7795b4;
+}
+/* line 57, ../sass/color.scss */
+button.holy.black.wb[class*="hover2"]:active, a.holy.black.wb[class*="hover2"]:active, span.holy.black.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #19232d;
+  -webkit-box-shadow: inset 0 0 0 2px #19232d;
+  box-shadow: inset 0 0 0 2px #19232d;
+}
+/* line 62, ../sass/color.scss */
+button.holy.black.wb[class*="hover3"]:before, a.holy.black.wb[class*="hover3"]:before, span.holy.black.wb[class*="hover3"]:before {
+  border-right: 1px solid #34495e;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.black.wb[class*="hover3"]:after, a.holy.black.wb[class*="hover3"]:after, span.holy.black.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #34495e;
+  border-right: 1px solid #34495e;
+}
+/* line 72, ../sass/color.scss */
+button.holy.black.wb[class*="hover3"]:hover, a.holy.black.wb[class*="hover3"]:hover, span.holy.black.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #34495e;
+}
+/* line 75, ../sass/color.scss */
+button.holy.black.wb[class*="hover3"]:hover:before, a.holy.black.wb[class*="hover3"]:hover:before, span.holy.black.wb[class*="hover3"]:hover:before {
+  background-color: #34495e;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.black.wb[class*="hover3"]:hover:after, a.holy.black.wb[class*="hover3"]:hover:after, span.holy.black.wb[class*="hover3"]:hover:after {
+  background-color: #34495e;
+}
+/* line 83, ../sass/color.scss */
+button.holy.black.wb[class*="hover3"]:active, a.holy.black.wb[class*="hover3"]:active, span.holy.black.wb[class*="hover3"]:active {
+  color: #19232d;
+  border-color: #19232d;
+}
+/* line 86, ../sass/color.scss */
+button.holy.black.wb[class*="hover3"]:active:before, a.holy.black.wb[class*="hover3"]:active:before, span.holy.black.wb[class*="hover3"]:active:before {
+  background-color: #19232d;
+  border-color: #19232d;
+}
+/* line 90, ../sass/color.scss */
+button.holy.black.wb[class*="hover3"]:active:after, a.holy.black.wb[class*="hover3"]:active:after, span.holy.black.wb[class*="hover3"]:active:after {
+  background-color: #19232d;
+  border-color: #19232d;
+}
+/* line 102, ../sass/color.scss */
+button.holy.black.threeD, a.holy.black.threeD, span.holy.black.threeD {
+  background-color: #34495e;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.black.threeD:not([class*="style"]), a.holy.black.threeD:not([class*="style"]), span.holy.black.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #10161c;
+  -webkit-box-shadow: 0 5px #10161c;
+  box-shadow: 0 5px #10161c;
+}
+/* line 109, ../sass/color.scss */
+button.holy.black.threeD:not([class*="style"]):hover, a.holy.black.threeD:not([class*="style"]):hover, span.holy.black.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #10161c;
+  -webkit-box-shadow: 0 3px #10161c;
+  box-shadow: 0 3px #10161c;
+}
+/* line 113, ../sass/color.scss */
+button.holy.black.threeD:not([class*="style"]):active, a.holy.black.threeD:not([class*="style"]):active, span.holy.black.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #10161c;
+  -webkit-box-shadow: 0 0 #10161c;
+  box-shadow: 0 0 #10161c;
+}
+/* line 118, ../sass/color.scss */
+button.holy.black.threeD.style1-top, a.holy.black.threeD.style1-top, span.holy.black.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #10161c;
+  -webkit-box-shadow: 0 -5px #10161c;
+  box-shadow: 0 -5px #10161c;
+}
+/* line 121, ../sass/color.scss */
+button.holy.black.threeD.style1-top:hover, a.holy.black.threeD.style1-top:hover, span.holy.black.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #10161c;
+  -webkit-box-shadow: 0 -3px #10161c;
+  box-shadow: 0 -3px #10161c;
+}
+/* line 125, ../sass/color.scss */
+button.holy.black.threeD.style1-top:active, a.holy.black.threeD.style1-top:active, span.holy.black.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #10161c;
+  -webkit-box-shadow: 0 0 #10161c;
+  box-shadow: 0 0 #10161c;
+}
+/* line 130, ../sass/color.scss */
+button.holy.black.threeD.style1-left, a.holy.black.threeD.style1-left, span.holy.black.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #10161c;
+  -webkit-box-shadow: -5px 0 #10161c;
+  box-shadow: -5px 0 #10161c;
+}
+/* line 133, ../sass/color.scss */
+button.holy.black.threeD.style1-left:hover, a.holy.black.threeD.style1-left:hover, span.holy.black.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #10161c;
+  -webkit-box-shadow: -3px 0 #10161c;
+  box-shadow: -3px 0 #10161c;
+}
+/* line 137, ../sass/color.scss */
+button.holy.black.threeD.style1-left:active, a.holy.black.threeD.style1-left:active, span.holy.black.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #10161c;
+  -webkit-box-shadow: 0 0 #10161c;
+  box-shadow: 0 0 #10161c;
+}
+/* line 142, ../sass/color.scss */
+button.holy.black.threeD.style1-right, a.holy.black.threeD.style1-right, span.holy.black.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #10161c;
+  -webkit-box-shadow: 5px 0 #10161c;
+  box-shadow: 5px 0 #10161c;
+}
+/* line 145, ../sass/color.scss */
+button.holy.black.threeD.style1-right:hover, a.holy.black.threeD.style1-right:hover, span.holy.black.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #10161c;
+  -webkit-box-shadow: 3px 0 #10161c;
+  box-shadow: 3px 0 #10161c;
+}
+/* line 149, ../sass/color.scss */
+button.holy.black.threeD.style1-right:active, a.holy.black.threeD.style1-right:active, span.holy.black.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #10161c;
+  -webkit-box-shadow: 0 0 #10161c;
+  box-shadow: 0 0 #10161c;
+}
+/* line 154, ../sass/color.scss */
+button.holy.black.threeD.style2, a.holy.black.threeD.style2, span.holy.black.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #88a2bd;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #88a2bd;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #88a2bd;
+  background-image: -moz-linear-gradient(top, #46627f, #34495e);
+  background-image: -webkit-linear-gradient(top, #46627f, #34495e);
+  background-image: linear-gradient(to bottom, #46627f, #34495e);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.black.threeD.style2:hover, a.holy.black.threeD.style2:hover, span.holy.black.threeD.style2:hover {
+  background-image: none;
+  background-color: #34495e;
+}
+/* line 163, ../sass/color.scss */
+button.holy.black.threeD.style2:active, a.holy.black.threeD.style2:active, span.holy.black.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #10161c, #3d566e);
+  background-image: -webkit-linear-gradient(top, #10161c, #3d566e);
+  background-image: linear-gradient(to bottom, #10161c, #3d566e);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #88a2bd;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #88a2bd;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #88a2bd;
+}
+/* line 169, ../sass/color.scss */
+button.holy.black.threeD.style3, a.holy.black.threeD.style3, span.holy.black.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #222f3d, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #222f3d, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #222f3d, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #46627f, #34495e);
+  background-image: -webkit-linear-gradient(top, #46627f, #34495e);
+  background-image: linear-gradient(to bottom, #46627f, #34495e);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.black.threeD.style3:hover, a.holy.black.threeD.style3:hover, span.holy.black.threeD.style3:hover {
+  background-image: none;
+  background-color: #34495e;
+}
+/* line 178, ../sass/color.scss */
+button.holy.black.threeD.style3:active, a.holy.black.threeD.style3:active, span.holy.black.threeD.style3:active {
+  top: 3px;
+  background-color: #34495e;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #222f3d, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #222f3d, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #222f3d, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.black.gymicon[class*="move-"], a.holy.black.gymicon[class*="move-"], span.holy.black.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.black.gymicon[class*="move-"]:before, a.holy.black.gymicon[class*="move-"]:before, span.holy.black.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.black.gymicon.move-left:before, a.holy.black.gymicon.move-left:before, span.holy.black.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #10161c;
+}
+/* line 203, ../sass/color.scss */
+button.holy.black.gymicon.move-left:hover:before, a.holy.black.gymicon.move-left:hover:before, span.holy.black.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.black.gymicon.move-bottom:before, a.holy.black.gymicon.move-bottom:before, span.holy.black.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #10161c;
+}
+/* line 215, ../sass/color.scss */
+button.holy.black.gymicon.move-bottom:hover:before, a.holy.black.gymicon.move-bottom:hover:before, span.holy.black.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.black.gymicon.move-top:before, a.holy.black.gymicon.move-top:before, span.holy.black.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #10161c;
+}
+/* line 226, ../sass/color.scss */
+button.holy.black.gymicon.move-top:hover:before, a.holy.black.gymicon.move-top:hover:before, span.holy.black.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.black.vertical.style1:before, a.holy.black.vertical.style1:before, span.holy.black.vertical.style1:before {
+  border-bottom: 1px solid #10161c;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.black.vertical.style1 span, a.holy.black.vertical.style1 span, span.holy.black.vertical.style1 span {
+  border-top: 1px solid #587ca0;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.black.vertical.style1:hover:before, a.holy.black.vertical.style1:hover:before, span.holy.black.vertical.style1:hover:before {
+  border-bottom: 1px solid black;
+}
+/* line 243, ../sass/color.scss */
+button.holy.black.vertical.style1:hover span, a.holy.black.vertical.style1:hover span, span.holy.black.vertical.style1:hover span {
+  border-top: 1px solid #34495e;
+}
+/* line 246, ../sass/color.scss */
+button.holy.black.vertical.style1:active:before, a.holy.black.vertical.style1:active:before, span.holy.black.vertical.style1:active:before {
+  border-bottom: 1px solid black;
+}
+/* line 247, ../sass/color.scss */
+button.holy.black.vertical.style1:active span, a.holy.black.vertical.style1:active span, span.holy.black.vertical.style1:active span {
+  border-top: 1px solid #10161c;
+}
+/* line 250, ../sass/color.scss */
+button.holy.black.vertical.style2, a.holy.black.vertical.style2, span.holy.black.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #10161c, inset 0 0 1px #34495e, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #10161c, inset 0 0 1px #34495e, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #10161c, inset 0 0 1px #34495e, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #34495e 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #34495e 50%);
+  background-image: linear-gradient(#ffffff 50%, #34495e 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.black.vertical.style2:before, a.holy.black.vertical.style2:before, span.holy.black.vertical.style2:before {
+  color: #34495e;
+}
+/* line 257, ../sass/color.scss */
+button.holy.black.vertical.style2:hover, a.holy.black.vertical.style2:hover, span.holy.black.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #2b3c4e 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #2b3c4e 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #2b3c4e 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.black.vertical.style2:hover:before, a.holy.black.vertical.style2:hover:before, span.holy.black.vertical.style2:hover:before {
+  color: #2b3c4e;
+}
+/* line 263, ../sass/color.scss */
+button.holy.black.vertical.style2:active, a.holy.black.vertical.style2:active, span.holy.black.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #2b3c4e, inset 0 0 1px #34495e, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #2b3c4e, inset 0 0 1px #34495e, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #2b3c4e, inset 0 0 1px #34495e, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #2b3c4e 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #2b3c4e 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #2b3c4e 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.black.vertical.style2:active:before, a.holy.black.vertical.style2:active:before, span.holy.black.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #10161c;
+  -webkit-box-shadow: 0 5px 5px -3px #10161c;
+  box-shadow: 0 5px 5px -3px #10161c;
+}
+/* line 280, ../sass/color.scss */
+button.holy.purple, a.holy.purple, span.holy.purple {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.purple.simple, a.holy.purple.simple, span.holy.purple.simple {
+  background-color: #9b59b6;
+}
+/* line 11, ../sass/color.scss */
+button.holy.purple.simple:hover, a.holy.purple.simple:hover, span.holy.purple.simple:hover {
+  background-color: #713b87;
+}
+/* line 14, ../sass/color.scss */
+button.holy.purple.simple:active, a.holy.purple.simple:active, span.holy.purple.simple:active {
+  background-color: #452452;
+}
+/* line 23, ../sass/color.scss */
+button.holy.purple.wb, a.holy.purple.wb, span.holy.purple.wb {
+  background-color: white;
+  color: #9b59b6;
+  border: 2px solid #9b59b6;
+}
+/* line 27, ../sass/color.scss */
+button.holy.purple.wb:hover, a.holy.purple.wb:hover, span.holy.purple.wb:hover {
+  background-color: #9b59b6;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.purple.wb:active, a.holy.purple.wb:active, span.holy.purple.wb:active {
+  background-color: #452452;
+  border-color: #452452;
+}
+/* line 36, ../sass/color.scss */
+button.holy.purple.wb[class*="hover1-"]:hover, a.holy.purple.wb[class*="hover1-"]:hover, span.holy.purple.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.purple.wb[class*="hover1-"]:after, a.holy.purple.wb[class*="hover1-"]:after, span.holy.purple.wb[class*="hover1-"]:after {
+  background-color: #9b59b6;
+}
+/* line 43, ../sass/color.scss */
+button.holy.purple.wb[class*="hover1-"]:active:after, a.holy.purple.wb[class*="hover1-"]:active:after, span.holy.purple.wb[class*="hover1-"]:active:after {
+  background-color: #452452;
+}
+/* line 48, ../sass/color.scss */
+button.holy.purple.wb[class*="hover2"], a.holy.purple.wb[class*="hover2"], span.holy.purple.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(155, 89, 182, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(155, 89, 182, 0);
+  box-shadow: inset 0 0 0 2px rgba(155, 89, 182, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.purple.wb[class*="hover2"]:active, a.holy.purple.wb[class*="hover2"]:active, span.holy.purple.wb[class*="hover2"]:active {
+  background-color: #713b87;
+  border-color: #713b87;
+}
+/* line 54, ../sass/color.scss */
+button.holy.purple.wb[class*="hover2"]:hover, a.holy.purple.wb[class*="hover2"]:hover, span.holy.purple.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #dbc3e5;
+  -webkit-box-shadow: inset 0 0 0 2px #dbc3e5;
+  box-shadow: inset 0 0 0 2px #dbc3e5;
+}
+/* line 57, ../sass/color.scss */
+button.holy.purple.wb[class*="hover2"]:active, a.holy.purple.wb[class*="hover2"]:active, span.holy.purple.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #713b87;
+  -webkit-box-shadow: inset 0 0 0 2px #713b87;
+  box-shadow: inset 0 0 0 2px #713b87;
+}
+/* line 62, ../sass/color.scss */
+button.holy.purple.wb[class*="hover3"]:before, a.holy.purple.wb[class*="hover3"]:before, span.holy.purple.wb[class*="hover3"]:before {
+  border-right: 1px solid #9b59b6;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.purple.wb[class*="hover3"]:after, a.holy.purple.wb[class*="hover3"]:after, span.holy.purple.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #9b59b6;
+  border-right: 1px solid #9b59b6;
+}
+/* line 72, ../sass/color.scss */
+button.holy.purple.wb[class*="hover3"]:hover, a.holy.purple.wb[class*="hover3"]:hover, span.holy.purple.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #9b59b6;
+}
+/* line 75, ../sass/color.scss */
+button.holy.purple.wb[class*="hover3"]:hover:before, a.holy.purple.wb[class*="hover3"]:hover:before, span.holy.purple.wb[class*="hover3"]:hover:before {
+  background-color: #9b59b6;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.purple.wb[class*="hover3"]:hover:after, a.holy.purple.wb[class*="hover3"]:hover:after, span.holy.purple.wb[class*="hover3"]:hover:after {
+  background-color: #9b59b6;
+}
+/* line 83, ../sass/color.scss */
+button.holy.purple.wb[class*="hover3"]:active, a.holy.purple.wb[class*="hover3"]:active, span.holy.purple.wb[class*="hover3"]:active {
+  color: #713b87;
+  border-color: #713b87;
+}
+/* line 86, ../sass/color.scss */
+button.holy.purple.wb[class*="hover3"]:active:before, a.holy.purple.wb[class*="hover3"]:active:before, span.holy.purple.wb[class*="hover3"]:active:before {
+  background-color: #713b87;
+  border-color: #713b87;
+}
+/* line 90, ../sass/color.scss */
+button.holy.purple.wb[class*="hover3"]:active:after, a.holy.purple.wb[class*="hover3"]:active:after, span.holy.purple.wb[class*="hover3"]:active:after {
+  background-color: #713b87;
+  border-color: #713b87;
+}
+/* line 102, ../sass/color.scss */
+button.holy.purple.threeD, a.holy.purple.threeD, span.holy.purple.threeD {
+  background-color: #9b59b6;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.purple.threeD:not([class*="style"]), a.holy.purple.threeD:not([class*="style"]), span.holy.purple.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #623475;
+  -webkit-box-shadow: 0 5px #623475;
+  box-shadow: 0 5px #623475;
+}
+/* line 109, ../sass/color.scss */
+button.holy.purple.threeD:not([class*="style"]):hover, a.holy.purple.threeD:not([class*="style"]):hover, span.holy.purple.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #623475;
+  -webkit-box-shadow: 0 3px #623475;
+  box-shadow: 0 3px #623475;
+}
+/* line 113, ../sass/color.scss */
+button.holy.purple.threeD:not([class*="style"]):active, a.holy.purple.threeD:not([class*="style"]):active, span.holy.purple.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #623475;
+  -webkit-box-shadow: 0 0 #623475;
+  box-shadow: 0 0 #623475;
+}
+/* line 118, ../sass/color.scss */
+button.holy.purple.threeD.style1-top, a.holy.purple.threeD.style1-top, span.holy.purple.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #623475;
+  -webkit-box-shadow: 0 -5px #623475;
+  box-shadow: 0 -5px #623475;
+}
+/* line 121, ../sass/color.scss */
+button.holy.purple.threeD.style1-top:hover, a.holy.purple.threeD.style1-top:hover, span.holy.purple.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #623475;
+  -webkit-box-shadow: 0 -3px #623475;
+  box-shadow: 0 -3px #623475;
+}
+/* line 125, ../sass/color.scss */
+button.holy.purple.threeD.style1-top:active, a.holy.purple.threeD.style1-top:active, span.holy.purple.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #623475;
+  -webkit-box-shadow: 0 0 #623475;
+  box-shadow: 0 0 #623475;
+}
+/* line 130, ../sass/color.scss */
+button.holy.purple.threeD.style1-left, a.holy.purple.threeD.style1-left, span.holy.purple.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #623475;
+  -webkit-box-shadow: -5px 0 #623475;
+  box-shadow: -5px 0 #623475;
+}
+/* line 133, ../sass/color.scss */
+button.holy.purple.threeD.style1-left:hover, a.holy.purple.threeD.style1-left:hover, span.holy.purple.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #623475;
+  -webkit-box-shadow: -3px 0 #623475;
+  box-shadow: -3px 0 #623475;
+}
+/* line 137, ../sass/color.scss */
+button.holy.purple.threeD.style1-left:active, a.holy.purple.threeD.style1-left:active, span.holy.purple.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #623475;
+  -webkit-box-shadow: 0 0 #623475;
+  box-shadow: 0 0 #623475;
+}
+/* line 142, ../sass/color.scss */
+button.holy.purple.threeD.style1-right, a.holy.purple.threeD.style1-right, span.holy.purple.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #623475;
+  -webkit-box-shadow: 5px 0 #623475;
+  box-shadow: 5px 0 #623475;
+}
+/* line 145, ../sass/color.scss */
+button.holy.purple.threeD.style1-right:hover, a.holy.purple.threeD.style1-right:hover, span.holy.purple.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #623475;
+  -webkit-box-shadow: 3px 0 #623475;
+  box-shadow: 3px 0 #623475;
+}
+/* line 149, ../sass/color.scss */
+button.holy.purple.threeD.style1-right:active, a.holy.purple.threeD.style1-right:active, span.holy.purple.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #623475;
+  -webkit-box-shadow: 0 0 #623475;
+  box-shadow: 0 0 #623475;
+}
+/* line 154, ../sass/color.scss */
+button.holy.purple.threeD.style2, a.holy.purple.threeD.style2, span.holy.purple.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #e6d5ed;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #e6d5ed;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #e6d5ed;
+  background-image: -moz-linear-gradient(top, #b07cc6, #9b59b6);
+  background-image: -webkit-linear-gradient(top, #b07cc6, #9b59b6);
+  background-image: linear-gradient(to bottom, #b07cc6, #9b59b6);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.purple.threeD.style2:hover, a.holy.purple.threeD.style2:hover, span.holy.purple.threeD.style2:hover {
+  background-image: none;
+  background-color: #9b59b6;
+}
+/* line 163, ../sass/color.scss */
+button.holy.purple.threeD.style2:active, a.holy.purple.threeD.style2:active, span.holy.purple.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #623475, #a66bbe);
+  background-image: -webkit-linear-gradient(top, #623475, #a66bbe);
+  background-image: linear-gradient(to bottom, #623475, #a66bbe);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #e6d5ed;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #e6d5ed;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #e6d5ed;
+}
+/* line 169, ../sass/color.scss */
+button.holy.purple.threeD.style3, a.holy.purple.threeD.style3, span.holy.purple.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #804399, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #804399, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #804399, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #b07cc6, #9b59b6);
+  background-image: -webkit-linear-gradient(top, #b07cc6, #9b59b6);
+  background-image: linear-gradient(to bottom, #b07cc6, #9b59b6);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.purple.threeD.style3:hover, a.holy.purple.threeD.style3:hover, span.holy.purple.threeD.style3:hover {
+  background-image: none;
+  background-color: #9b59b6;
+}
+/* line 178, ../sass/color.scss */
+button.holy.purple.threeD.style3:active, a.holy.purple.threeD.style3:active, span.holy.purple.threeD.style3:active {
+  top: 3px;
+  background-color: #9b59b6;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #804399, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #804399, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #804399, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.purple.gymicon[class*="move-"], a.holy.purple.gymicon[class*="move-"], span.holy.purple.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.purple.gymicon[class*="move-"]:before, a.holy.purple.gymicon[class*="move-"]:before, span.holy.purple.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.purple.gymicon.move-left:before, a.holy.purple.gymicon.move-left:before, span.holy.purple.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #623475;
+}
+/* line 203, ../sass/color.scss */
+button.holy.purple.gymicon.move-left:hover:before, a.holy.purple.gymicon.move-left:hover:before, span.holy.purple.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.purple.gymicon.move-bottom:before, a.holy.purple.gymicon.move-bottom:before, span.holy.purple.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #623475;
+}
+/* line 215, ../sass/color.scss */
+button.holy.purple.gymicon.move-bottom:hover:before, a.holy.purple.gymicon.move-bottom:hover:before, span.holy.purple.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.purple.gymicon.move-top:before, a.holy.purple.gymicon.move-top:before, span.holy.purple.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #623475;
+}
+/* line 226, ../sass/color.scss */
+button.holy.purple.gymicon.move-top:hover:before, a.holy.purple.gymicon.move-top:hover:before, span.holy.purple.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.purple.vertical.style1:before, a.holy.purple.vertical.style1:before, span.holy.purple.vertical.style1:before {
+  border-bottom: 1px solid #623475;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.purple.vertical.style1 span, a.holy.purple.vertical.style1 span, span.holy.purple.vertical.style1 span {
+  border-top: 1px solid #c6a0d5;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.purple.vertical.style1:hover:before, a.holy.purple.vertical.style1:hover:before, span.holy.purple.vertical.style1:hover:before {
+  border-bottom: 1px solid #452452;
+}
+/* line 243, ../sass/color.scss */
+button.holy.purple.vertical.style1:hover span, a.holy.purple.vertical.style1:hover span, span.holy.purple.vertical.style1:hover span {
+  border-top: 1px solid #9b59b6;
+}
+/* line 246, ../sass/color.scss */
+button.holy.purple.vertical.style1:active:before, a.holy.purple.vertical.style1:active:before, span.holy.purple.vertical.style1:active:before {
+  border-bottom: 1px solid #27142f;
+}
+/* line 247, ../sass/color.scss */
+button.holy.purple.vertical.style1:active span, a.holy.purple.vertical.style1:active span, span.holy.purple.vertical.style1:active span {
+  border-top: 1px solid #623475;
+}
+/* line 250, ../sass/color.scss */
+button.holy.purple.vertical.style2, a.holy.purple.vertical.style2, span.holy.purple.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #623475, inset 0 0 1px #9b59b6, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #623475, inset 0 0 1px #9b59b6, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #623475, inset 0 0 1px #9b59b6, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #9b59b6 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #9b59b6 50%);
+  background-image: linear-gradient(#ffffff 50%, #9b59b6 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.purple.vertical.style2:before, a.holy.purple.vertical.style2:before, span.holy.purple.vertical.style2:before {
+  color: #9b59b6;
+}
+/* line 257, ../sass/color.scss */
+button.holy.purple.vertical.style2:hover, a.holy.purple.vertical.style2:hover, span.holy.purple.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #8f4bab 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #8f4bab 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #8f4bab 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.purple.vertical.style2:hover:before, a.holy.purple.vertical.style2:hover:before, span.holy.purple.vertical.style2:hover:before {
+  color: #8f4bab;
+}
+/* line 263, ../sass/color.scss */
+button.holy.purple.vertical.style2:active, a.holy.purple.vertical.style2:active, span.holy.purple.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #8f4bab, inset 0 0 1px #9b59b6, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #8f4bab, inset 0 0 1px #9b59b6, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #8f4bab, inset 0 0 1px #9b59b6, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #8f4bab 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #8f4bab 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #8f4bab 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.purple.vertical.style2:active:before, a.holy.purple.vertical.style2:active:before, span.holy.purple.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #623475;
+  -webkit-box-shadow: 0 5px 5px -3px #623475;
+  box-shadow: 0 5px 5px -3px #623475;
+}
+/* line 281, ../sass/color.scss */
+button.holy.grey, a.holy.grey, span.holy.grey {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.grey.simple, a.holy.grey.simple, span.holy.grey.simple {
+  background-color: #95a5a6;
+}
+/* line 11, ../sass/color.scss */
+button.holy.grey.simple:hover, a.holy.grey.simple:hover, span.holy.grey.simple:hover {
+  background-color: #6d8082;
+}
+/* line 14, ../sass/color.scss */
+button.holy.grey.simple:active, a.holy.grey.simple:active, span.holy.grey.simple:active {
+  background-color: #4a5758;
+}
+/* line 23, ../sass/color.scss */
+button.holy.grey.wb, a.holy.grey.wb, span.holy.grey.wb {
+  background-color: white;
+  color: #95a5a6;
+  border: 2px solid #95a5a6;
+}
+/* line 27, ../sass/color.scss */
+button.holy.grey.wb:hover, a.holy.grey.wb:hover, span.holy.grey.wb:hover {
+  background-color: #95a5a6;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.grey.wb:active, a.holy.grey.wb:active, span.holy.grey.wb:active {
+  background-color: #4a5758;
+  border-color: #4a5758;
+}
+/* line 36, ../sass/color.scss */
+button.holy.grey.wb[class*="hover1-"]:hover, a.holy.grey.wb[class*="hover1-"]:hover, span.holy.grey.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.grey.wb[class*="hover1-"]:after, a.holy.grey.wb[class*="hover1-"]:after, span.holy.grey.wb[class*="hover1-"]:after {
+  background-color: #95a5a6;
+}
+/* line 43, ../sass/color.scss */
+button.holy.grey.wb[class*="hover1-"]:active:after, a.holy.grey.wb[class*="hover1-"]:active:after, span.holy.grey.wb[class*="hover1-"]:active:after {
+  background-color: #4a5758;
+}
+/* line 48, ../sass/color.scss */
+button.holy.grey.wb[class*="hover2"], a.holy.grey.wb[class*="hover2"], span.holy.grey.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(149, 165, 166, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(149, 165, 166, 0);
+  box-shadow: inset 0 0 0 2px rgba(149, 165, 166, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.grey.wb[class*="hover2"]:active, a.holy.grey.wb[class*="hover2"]:active, span.holy.grey.wb[class*="hover2"]:active {
+  background-color: #6d8082;
+  border-color: #6d8082;
+}
+/* line 54, ../sass/color.scss */
+button.holy.grey.wb[class*="hover2"]:hover, a.holy.grey.wb[class*="hover2"]:hover, span.holy.grey.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #e8ecec;
+  -webkit-box-shadow: inset 0 0 0 2px #e8ecec;
+  box-shadow: inset 0 0 0 2px #e8ecec;
+}
+/* line 57, ../sass/color.scss */
+button.holy.grey.wb[class*="hover2"]:active, a.holy.grey.wb[class*="hover2"]:active, span.holy.grey.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #6d8082;
+  -webkit-box-shadow: inset 0 0 0 2px #6d8082;
+  box-shadow: inset 0 0 0 2px #6d8082;
+}
+/* line 62, ../sass/color.scss */
+button.holy.grey.wb[class*="hover3"]:before, a.holy.grey.wb[class*="hover3"]:before, span.holy.grey.wb[class*="hover3"]:before {
+  border-right: 1px solid #95a5a6;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.grey.wb[class*="hover3"]:after, a.holy.grey.wb[class*="hover3"]:after, span.holy.grey.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #95a5a6;
+  border-right: 1px solid #95a5a6;
+}
+/* line 72, ../sass/color.scss */
+button.holy.grey.wb[class*="hover3"]:hover, a.holy.grey.wb[class*="hover3"]:hover, span.holy.grey.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #95a5a6;
+}
+/* line 75, ../sass/color.scss */
+button.holy.grey.wb[class*="hover3"]:hover:before, a.holy.grey.wb[class*="hover3"]:hover:before, span.holy.grey.wb[class*="hover3"]:hover:before {
+  background-color: #95a5a6;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.grey.wb[class*="hover3"]:hover:after, a.holy.grey.wb[class*="hover3"]:hover:after, span.holy.grey.wb[class*="hover3"]:hover:after {
+  background-color: #95a5a6;
+}
+/* line 83, ../sass/color.scss */
+button.holy.grey.wb[class*="hover3"]:active, a.holy.grey.wb[class*="hover3"]:active, span.holy.grey.wb[class*="hover3"]:active {
+  color: #6d8082;
+  border-color: #6d8082;
+}
+/* line 86, ../sass/color.scss */
+button.holy.grey.wb[class*="hover3"]:active:before, a.holy.grey.wb[class*="hover3"]:active:before, span.holy.grey.wb[class*="hover3"]:active:before {
+  background-color: #6d8082;
+  border-color: #6d8082;
+}
+/* line 90, ../sass/color.scss */
+button.holy.grey.wb[class*="hover3"]:active:after, a.holy.grey.wb[class*="hover3"]:active:after, span.holy.grey.wb[class*="hover3"]:active:after {
+  background-color: #6d8082;
+  border-color: #6d8082;
+}
+/* line 102, ../sass/color.scss */
+button.holy.grey.threeD, a.holy.grey.threeD, span.holy.grey.threeD {
+  background-color: #95a5a6;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.grey.threeD:not([class*="style"]), a.holy.grey.threeD:not([class*="style"]), span.holy.grey.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #617374;
+  -webkit-box-shadow: 0 5px #617374;
+  box-shadow: 0 5px #617374;
+}
+/* line 109, ../sass/color.scss */
+button.holy.grey.threeD:not([class*="style"]):hover, a.holy.grey.threeD:not([class*="style"]):hover, span.holy.grey.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #617374;
+  -webkit-box-shadow: 0 3px #617374;
+  box-shadow: 0 3px #617374;
+}
+/* line 113, ../sass/color.scss */
+button.holy.grey.threeD:not([class*="style"]):active, a.holy.grey.threeD:not([class*="style"]):active, span.holy.grey.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #617374;
+  -webkit-box-shadow: 0 0 #617374;
+  box-shadow: 0 0 #617374;
+}
+/* line 118, ../sass/color.scss */
+button.holy.grey.threeD.style1-top, a.holy.grey.threeD.style1-top, span.holy.grey.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #617374;
+  -webkit-box-shadow: 0 -5px #617374;
+  box-shadow: 0 -5px #617374;
+}
+/* line 121, ../sass/color.scss */
+button.holy.grey.threeD.style1-top:hover, a.holy.grey.threeD.style1-top:hover, span.holy.grey.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #617374;
+  -webkit-box-shadow: 0 -3px #617374;
+  box-shadow: 0 -3px #617374;
+}
+/* line 125, ../sass/color.scss */
+button.holy.grey.threeD.style1-top:active, a.holy.grey.threeD.style1-top:active, span.holy.grey.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #617374;
+  -webkit-box-shadow: 0 0 #617374;
+  box-shadow: 0 0 #617374;
+}
+/* line 130, ../sass/color.scss */
+button.holy.grey.threeD.style1-left, a.holy.grey.threeD.style1-left, span.holy.grey.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #617374;
+  -webkit-box-shadow: -5px 0 #617374;
+  box-shadow: -5px 0 #617374;
+}
+/* line 133, ../sass/color.scss */
+button.holy.grey.threeD.style1-left:hover, a.holy.grey.threeD.style1-left:hover, span.holy.grey.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #617374;
+  -webkit-box-shadow: -3px 0 #617374;
+  box-shadow: -3px 0 #617374;
+}
+/* line 137, ../sass/color.scss */
+button.holy.grey.threeD.style1-left:active, a.holy.grey.threeD.style1-left:active, span.holy.grey.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #617374;
+  -webkit-box-shadow: 0 0 #617374;
+  box-shadow: 0 0 #617374;
+}
+/* line 142, ../sass/color.scss */
+button.holy.grey.threeD.style1-right, a.holy.grey.threeD.style1-right, span.holy.grey.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #617374;
+  -webkit-box-shadow: 5px 0 #617374;
+  box-shadow: 5px 0 #617374;
+}
+/* line 145, ../sass/color.scss */
+button.holy.grey.threeD.style1-right:hover, a.holy.grey.threeD.style1-right:hover, span.holy.grey.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #617374;
+  -webkit-box-shadow: 3px 0 #617374;
+  box-shadow: 3px 0 #617374;
+}
+/* line 149, ../sass/color.scss */
+button.holy.grey.threeD.style1-right:active, a.holy.grey.threeD.style1-right:active, span.holy.grey.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #617374;
+  -webkit-box-shadow: 0 0 #617374;
+  box-shadow: 0 0 #617374;
+}
+/* line 154, ../sass/color.scss */
+button.holy.grey.threeD.style2, a.holy.grey.threeD.style2, span.holy.grey.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f6f7f7;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f6f7f7;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f6f7f7;
+  background-image: -moz-linear-gradient(top, #b1bdbd, #95a5a6);
+  background-image: -webkit-linear-gradient(top, #b1bdbd, #95a5a6);
+  background-image: linear-gradient(to bottom, #b1bdbd, #95a5a6);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.grey.threeD.style2:hover, a.holy.grey.threeD.style2:hover, span.holy.grey.threeD.style2:hover {
+  background-image: none;
+  background-color: #95a5a6;
+}
+/* line 163, ../sass/color.scss */
+button.holy.grey.threeD.style2:active, a.holy.grey.threeD.style2:active, span.holy.grey.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #617374, #a3b1b2);
+  background-image: -webkit-linear-gradient(top, #617374, #a3b1b2);
+  background-image: linear-gradient(to bottom, #617374, #a3b1b2);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f6f7f7;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f6f7f7;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f6f7f7;
+}
+/* line 169, ../sass/color.scss */
+button.holy.grey.threeD.style3, a.holy.grey.threeD.style3, span.holy.grey.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #798d8f, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #798d8f, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #798d8f, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #b1bdbd, #95a5a6);
+  background-image: -webkit-linear-gradient(top, #b1bdbd, #95a5a6);
+  background-image: linear-gradient(to bottom, #b1bdbd, #95a5a6);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.grey.threeD.style3:hover, a.holy.grey.threeD.style3:hover, span.holy.grey.threeD.style3:hover {
+  background-image: none;
+  background-color: #95a5a6;
+}
+/* line 178, ../sass/color.scss */
+button.holy.grey.threeD.style3:active, a.holy.grey.threeD.style3:active, span.holy.grey.threeD.style3:active {
+  top: 3px;
+  background-color: #95a5a6;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #798d8f, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #798d8f, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #798d8f, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.grey.gymicon[class*="move-"], a.holy.grey.gymicon[class*="move-"], span.holy.grey.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.grey.gymicon[class*="move-"]:before, a.holy.grey.gymicon[class*="move-"]:before, span.holy.grey.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.grey.gymicon.move-left:before, a.holy.grey.gymicon.move-left:before, span.holy.grey.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #617374;
+}
+/* line 203, ../sass/color.scss */
+button.holy.grey.gymicon.move-left:hover:before, a.holy.grey.gymicon.move-left:hover:before, span.holy.grey.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.grey.gymicon.move-bottom:before, a.holy.grey.gymicon.move-bottom:before, span.holy.grey.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #617374;
+}
+/* line 215, ../sass/color.scss */
+button.holy.grey.gymicon.move-bottom:hover:before, a.holy.grey.gymicon.move-bottom:hover:before, span.holy.grey.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.grey.gymicon.move-top:before, a.holy.grey.gymicon.move-top:before, span.holy.grey.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #617374;
+}
+/* line 226, ../sass/color.scss */
+button.holy.grey.gymicon.move-top:hover:before, a.holy.grey.gymicon.move-top:hover:before, span.holy.grey.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.grey.vertical.style1:before, a.holy.grey.vertical.style1:before, span.holy.grey.vertical.style1:before {
+  border-bottom: 1px solid #617374;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.grey.vertical.style1 span, a.holy.grey.vertical.style1 span, span.holy.grey.vertical.style1 span {
+  border-top: 1px solid #ccd4d5;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.grey.vertical.style1:hover:before, a.holy.grey.vertical.style1:hover:before, span.holy.grey.vertical.style1:hover:before {
+  border-bottom: 1px solid #4a5758;
+}
+/* line 243, ../sass/color.scss */
+button.holy.grey.vertical.style1:hover span, a.holy.grey.vertical.style1:hover span, span.holy.grey.vertical.style1:hover span {
+  border-top: 1px solid #95a5a6;
+}
+/* line 246, ../sass/color.scss */
+button.holy.grey.vertical.style1:active:before, a.holy.grey.vertical.style1:active:before, span.holy.grey.vertical.style1:active:before {
+  border-bottom: 1px solid #333c3c;
+}
+/* line 247, ../sass/color.scss */
+button.holy.grey.vertical.style1:active span, a.holy.grey.vertical.style1:active span, span.holy.grey.vertical.style1:active span {
+  border-top: 1px solid #617374;
+}
+/* line 250, ../sass/color.scss */
+button.holy.grey.vertical.style2, a.holy.grey.vertical.style2, span.holy.grey.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #617374, inset 0 0 1px #95a5a6, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #617374, inset 0 0 1px #95a5a6, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #617374, inset 0 0 1px #95a5a6, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #95a5a6 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #95a5a6 50%);
+  background-image: linear-gradient(#ffffff 50%, #95a5a6 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.grey.vertical.style2:before, a.holy.grey.vertical.style2:before, span.holy.grey.vertical.style2:before {
+  color: #95a5a6;
+}
+/* line 257, ../sass/color.scss */
+button.holy.grey.vertical.style2:hover, a.holy.grey.vertical.style2:hover, span.holy.grey.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #87999a 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #87999a 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #87999a 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.grey.vertical.style2:hover:before, a.holy.grey.vertical.style2:hover:before, span.holy.grey.vertical.style2:hover:before {
+  color: #87999a;
+}
+/* line 263, ../sass/color.scss */
+button.holy.grey.vertical.style2:active, a.holy.grey.vertical.style2:active, span.holy.grey.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #87999a, inset 0 0 1px #95a5a6, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #87999a, inset 0 0 1px #95a5a6, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #87999a, inset 0 0 1px #95a5a6, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #87999a 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #87999a 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #87999a 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.grey.vertical.style2:active:before, a.holy.grey.vertical.style2:active:before, span.holy.grey.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #617374;
+  -webkit-box-shadow: 0 5px 5px -3px #617374;
+  box-shadow: 0 5px 5px -3px #617374;
+}
+/* line 282, ../sass/color.scss */
+button.holy.orange, a.holy.orange, span.holy.orange {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.orange.simple, a.holy.orange.simple, span.holy.orange.simple {
+  background-color: #e67e22;
+}
+/* line 11, ../sass/color.scss */
+button.holy.orange.simple:hover, a.holy.orange.simple:hover, span.holy.orange.simple:hover {
+  background-color: #a85913;
+}
+/* line 14, ../sass/color.scss */
+button.holy.orange.simple:active, a.holy.orange.simple:active, span.holy.orange.simple:active {
+  background-color: #64350b;
+}
+/* line 23, ../sass/color.scss */
+button.holy.orange.wb, a.holy.orange.wb, span.holy.orange.wb {
+  background-color: white;
+  color: #e67e22;
+  border: 2px solid #e67e22;
+}
+/* line 27, ../sass/color.scss */
+button.holy.orange.wb:hover, a.holy.orange.wb:hover, span.holy.orange.wb:hover {
+  background-color: #e67e22;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.orange.wb:active, a.holy.orange.wb:active, span.holy.orange.wb:active {
+  background-color: #64350b;
+  border-color: #64350b;
+}
+/* line 36, ../sass/color.scss */
+button.holy.orange.wb[class*="hover1-"]:hover, a.holy.orange.wb[class*="hover1-"]:hover, span.holy.orange.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.orange.wb[class*="hover1-"]:after, a.holy.orange.wb[class*="hover1-"]:after, span.holy.orange.wb[class*="hover1-"]:after {
+  background-color: #e67e22;
+}
+/* line 43, ../sass/color.scss */
+button.holy.orange.wb[class*="hover1-"]:active:after, a.holy.orange.wb[class*="hover1-"]:active:after, span.holy.orange.wb[class*="hover1-"]:active:after {
+  background-color: #64350b;
+}
+/* line 48, ../sass/color.scss */
+button.holy.orange.wb[class*="hover2"], a.holy.orange.wb[class*="hover2"], span.holy.orange.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(230, 126, 34, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(230, 126, 34, 0);
+  box-shadow: inset 0 0 0 2px rgba(230, 126, 34, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.orange.wb[class*="hover2"]:active, a.holy.orange.wb[class*="hover2"]:active, span.holy.orange.wb[class*="hover2"]:active {
+  background-color: #a85913;
+  border-color: #a85913;
+}
+/* line 54, ../sass/color.scss */
+button.holy.orange.wb[class*="hover2"]:hover, a.holy.orange.wb[class*="hover2"]:hover, span.holy.orange.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #f6ceab;
+  -webkit-box-shadow: inset 0 0 0 2px #f6ceab;
+  box-shadow: inset 0 0 0 2px #f6ceab;
+}
+/* line 57, ../sass/color.scss */
+button.holy.orange.wb[class*="hover2"]:active, a.holy.orange.wb[class*="hover2"]:active, span.holy.orange.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #a85913;
+  -webkit-box-shadow: inset 0 0 0 2px #a85913;
+  box-shadow: inset 0 0 0 2px #a85913;
+}
+/* line 62, ../sass/color.scss */
+button.holy.orange.wb[class*="hover3"]:before, a.holy.orange.wb[class*="hover3"]:before, span.holy.orange.wb[class*="hover3"]:before {
+  border-right: 1px solid #e67e22;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.orange.wb[class*="hover3"]:after, a.holy.orange.wb[class*="hover3"]:after, span.holy.orange.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #e67e22;
+  border-right: 1px solid #e67e22;
+}
+/* line 72, ../sass/color.scss */
+button.holy.orange.wb[class*="hover3"]:hover, a.holy.orange.wb[class*="hover3"]:hover, span.holy.orange.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #e67e22;
+}
+/* line 75, ../sass/color.scss */
+button.holy.orange.wb[class*="hover3"]:hover:before, a.holy.orange.wb[class*="hover3"]:hover:before, span.holy.orange.wb[class*="hover3"]:hover:before {
+  background-color: #e67e22;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.orange.wb[class*="hover3"]:hover:after, a.holy.orange.wb[class*="hover3"]:hover:after, span.holy.orange.wb[class*="hover3"]:hover:after {
+  background-color: #e67e22;
+}
+/* line 83, ../sass/color.scss */
+button.holy.orange.wb[class*="hover3"]:active, a.holy.orange.wb[class*="hover3"]:active, span.holy.orange.wb[class*="hover3"]:active {
+  color: #a85913;
+  border-color: #a85913;
+}
+/* line 86, ../sass/color.scss */
+button.holy.orange.wb[class*="hover3"]:active:before, a.holy.orange.wb[class*="hover3"]:active:before, span.holy.orange.wb[class*="hover3"]:active:before {
+  background-color: #a85913;
+  border-color: #a85913;
+}
+/* line 90, ../sass/color.scss */
+button.holy.orange.wb[class*="hover3"]:active:after, a.holy.orange.wb[class*="hover3"]:active:after, span.holy.orange.wb[class*="hover3"]:active:after {
+  background-color: #a85913;
+  border-color: #a85913;
+}
+/* line 102, ../sass/color.scss */
+button.holy.orange.threeD, a.holy.orange.threeD, span.holy.orange.threeD {
+  background-color: #e67e22;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.orange.threeD:not([class*="style"]), a.holy.orange.threeD:not([class*="style"]), span.holy.orange.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #924d10;
+  -webkit-box-shadow: 0 5px #924d10;
+  box-shadow: 0 5px #924d10;
+}
+/* line 109, ../sass/color.scss */
+button.holy.orange.threeD:not([class*="style"]):hover, a.holy.orange.threeD:not([class*="style"]):hover, span.holy.orange.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #924d10;
+  -webkit-box-shadow: 0 3px #924d10;
+  box-shadow: 0 3px #924d10;
+}
+/* line 113, ../sass/color.scss */
+button.holy.orange.threeD:not([class*="style"]):active, a.holy.orange.threeD:not([class*="style"]):active, span.holy.orange.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #924d10;
+  -webkit-box-shadow: 0 0 #924d10;
+  box-shadow: 0 0 #924d10;
+}
+/* line 118, ../sass/color.scss */
+button.holy.orange.threeD.style1-top, a.holy.orange.threeD.style1-top, span.holy.orange.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #924d10;
+  -webkit-box-shadow: 0 -5px #924d10;
+  box-shadow: 0 -5px #924d10;
+}
+/* line 121, ../sass/color.scss */
+button.holy.orange.threeD.style1-top:hover, a.holy.orange.threeD.style1-top:hover, span.holy.orange.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #924d10;
+  -webkit-box-shadow: 0 -3px #924d10;
+  box-shadow: 0 -3px #924d10;
+}
+/* line 125, ../sass/color.scss */
+button.holy.orange.threeD.style1-top:active, a.holy.orange.threeD.style1-top:active, span.holy.orange.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #924d10;
+  -webkit-box-shadow: 0 0 #924d10;
+  box-shadow: 0 0 #924d10;
+}
+/* line 130, ../sass/color.scss */
+button.holy.orange.threeD.style1-left, a.holy.orange.threeD.style1-left, span.holy.orange.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #924d10;
+  -webkit-box-shadow: -5px 0 #924d10;
+  box-shadow: -5px 0 #924d10;
+}
+/* line 133, ../sass/color.scss */
+button.holy.orange.threeD.style1-left:hover, a.holy.orange.threeD.style1-left:hover, span.holy.orange.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #924d10;
+  -webkit-box-shadow: -3px 0 #924d10;
+  box-shadow: -3px 0 #924d10;
+}
+/* line 137, ../sass/color.scss */
+button.holy.orange.threeD.style1-left:active, a.holy.orange.threeD.style1-left:active, span.holy.orange.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #924d10;
+  -webkit-box-shadow: 0 0 #924d10;
+  box-shadow: 0 0 #924d10;
+}
+/* line 142, ../sass/color.scss */
+button.holy.orange.threeD.style1-right, a.holy.orange.threeD.style1-right, span.holy.orange.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #924d10;
+  -webkit-box-shadow: 5px 0 #924d10;
+  box-shadow: 5px 0 #924d10;
+}
+/* line 145, ../sass/color.scss */
+button.holy.orange.threeD.style1-right:hover, a.holy.orange.threeD.style1-right:hover, span.holy.orange.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #924d10;
+  -webkit-box-shadow: 3px 0 #924d10;
+  box-shadow: 3px 0 #924d10;
+}
+/* line 149, ../sass/color.scss */
+button.holy.orange.threeD.style1-right:active, a.holy.orange.threeD.style1-right:active, span.holy.orange.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #924d10;
+  -webkit-box-shadow: 0 0 #924d10;
+  box-shadow: 0 0 #924d10;
+}
+/* line 154, ../sass/color.scss */
+button.holy.orange.threeD.style2, a.holy.orange.threeD.style2, span.holy.orange.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f8dcc2;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f8dcc2;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f8dcc2;
+  background-image: -moz-linear-gradient(top, #eb9950, #e67e22);
+  background-image: -webkit-linear-gradient(top, #eb9950, #e67e22);
+  background-image: linear-gradient(to bottom, #eb9950, #e67e22);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.orange.threeD.style2:hover, a.holy.orange.threeD.style2:hover, span.holy.orange.threeD.style2:hover {
+  background-image: none;
+  background-color: #e67e22;
+}
+/* line 163, ../sass/color.scss */
+button.holy.orange.threeD.style2:active, a.holy.orange.threeD.style2:active, span.holy.orange.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #924d10, #e98b39);
+  background-image: -webkit-linear-gradient(top, #924d10, #e98b39);
+  background-image: linear-gradient(to bottom, #924d10, #e98b39);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f8dcc2;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f8dcc2;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f8dcc2;
+}
+/* line 169, ../sass/color.scss */
+button.holy.orange.threeD.style3, a.holy.orange.threeD.style3, span.holy.orange.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #bf6516, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #bf6516, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #bf6516, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #eb9950, #e67e22);
+  background-image: -webkit-linear-gradient(top, #eb9950, #e67e22);
+  background-image: linear-gradient(to bottom, #eb9950, #e67e22);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.orange.threeD.style3:hover, a.holy.orange.threeD.style3:hover, span.holy.orange.threeD.style3:hover {
+  background-image: none;
+  background-color: #e67e22;
+}
+/* line 178, ../sass/color.scss */
+button.holy.orange.threeD.style3:active, a.holy.orange.threeD.style3:active, span.holy.orange.threeD.style3:active {
+  top: 3px;
+  background-color: #e67e22;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #bf6516, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #bf6516, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #bf6516, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.orange.gymicon[class*="move-"], a.holy.orange.gymicon[class*="move-"], span.holy.orange.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.orange.gymicon[class*="move-"]:before, a.holy.orange.gymicon[class*="move-"]:before, span.holy.orange.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.orange.gymicon.move-left:before, a.holy.orange.gymicon.move-left:before, span.holy.orange.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #924d10;
+}
+/* line 203, ../sass/color.scss */
+button.holy.orange.gymicon.move-left:hover:before, a.holy.orange.gymicon.move-left:hover:before, span.holy.orange.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.orange.gymicon.move-bottom:before, a.holy.orange.gymicon.move-bottom:before, span.holy.orange.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #924d10;
+}
+/* line 215, ../sass/color.scss */
+button.holy.orange.gymicon.move-bottom:hover:before, a.holy.orange.gymicon.move-bottom:hover:before, span.holy.orange.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.orange.gymicon.move-top:before, a.holy.orange.gymicon.move-top:before, span.holy.orange.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #924d10;
+}
+/* line 226, ../sass/color.scss */
+button.holy.orange.gymicon.move-top:hover:before, a.holy.orange.gymicon.move-top:hover:before, span.holy.orange.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.orange.vertical.style1:before, a.holy.orange.vertical.style1:before, span.holy.orange.vertical.style1:before {
+  border-bottom: 1px solid #924d10;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.orange.vertical.style1 span, a.holy.orange.vertical.style1 span, span.holy.orange.vertical.style1 span {
+  border-top: 1px solid #f0b37e;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.orange.vertical.style1:hover:before, a.holy.orange.vertical.style1:hover:before, span.holy.orange.vertical.style1:hover:before {
+  border-bottom: 1px solid #64350b;
+}
+/* line 243, ../sass/color.scss */
+button.holy.orange.vertical.style1:hover span, a.holy.orange.vertical.style1:hover span, span.holy.orange.vertical.style1:hover span {
+  border-top: 1px solid #e67e22;
+}
+/* line 246, ../sass/color.scss */
+button.holy.orange.vertical.style1:active:before, a.holy.orange.vertical.style1:active:before, span.holy.orange.vertical.style1:active:before {
+  border-bottom: 1px solid #361d06;
+}
+/* line 247, ../sass/color.scss */
+button.holy.orange.vertical.style1:active span, a.holy.orange.vertical.style1:active span, span.holy.orange.vertical.style1:active span {
+  border-top: 1px solid #924d10;
+}
+/* line 250, ../sass/color.scss */
+button.holy.orange.vertical.style2, a.holy.orange.vertical.style2, span.holy.orange.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #924d10, inset 0 0 1px #e67e22, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #924d10, inset 0 0 1px #e67e22, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #924d10, inset 0 0 1px #e67e22, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #e67e22 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #e67e22 50%);
+  background-image: linear-gradient(#ffffff 50%, #e67e22 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.orange.vertical.style2:before, a.holy.orange.vertical.style2:before, span.holy.orange.vertical.style2:before {
+  color: #e67e22;
+}
+/* line 257, ../sass/color.scss */
+button.holy.orange.vertical.style2:hover, a.holy.orange.vertical.style2:hover, span.holy.orange.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #d67118 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #d67118 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #d67118 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.orange.vertical.style2:hover:before, a.holy.orange.vertical.style2:hover:before, span.holy.orange.vertical.style2:hover:before {
+  color: #d67118;
+}
+/* line 263, ../sass/color.scss */
+button.holy.orange.vertical.style2:active, a.holy.orange.vertical.style2:active, span.holy.orange.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #d67118, inset 0 0 1px #e67e22, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #d67118, inset 0 0 1px #e67e22, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #d67118, inset 0 0 1px #e67e22, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #d67118 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #d67118 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #d67118 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.orange.vertical.style2:active:before, a.holy.orange.vertical.style2:active:before, span.holy.orange.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #924d10;
+  -webkit-box-shadow: 0 5px 5px -3px #924d10;
+  box-shadow: 0 5px 5px -3px #924d10;
+}
+/* line 283, ../sass/color.scss */
+button.holy.yellow, a.holy.yellow, span.holy.yellow {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.yellow.simple, a.holy.yellow.simple, span.holy.yellow.simple {
+  background-color: #f1c40f;
+}
+/* line 11, ../sass/color.scss */
+button.holy.yellow.simple:hover, a.holy.yellow.simple:hover, span.holy.yellow.simple:hover {
+  background-color: #aa8a0a;
+}
+/* line 14, ../sass/color.scss */
+button.holy.yellow.simple:active, a.holy.yellow.simple:active, span.holy.yellow.simple:active {
+  background-color: #614f06;
+}
+/* line 23, ../sass/color.scss */
+button.holy.yellow.wb, a.holy.yellow.wb, span.holy.yellow.wb {
+  background-color: white;
+  color: #f1c40f;
+  border: 2px solid #f1c40f;
+}
+/* line 27, ../sass/color.scss */
+button.holy.yellow.wb:hover, a.holy.yellow.wb:hover, span.holy.yellow.wb:hover {
+  background-color: #f1c40f;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.yellow.wb:active, a.holy.yellow.wb:active, span.holy.yellow.wb:active {
+  background-color: #614f06;
+  border-color: #614f06;
+}
+/* line 36, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover1-"]:hover, a.holy.yellow.wb[class*="hover1-"]:hover, span.holy.yellow.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover1-"]:after, a.holy.yellow.wb[class*="hover1-"]:after, span.holy.yellow.wb[class*="hover1-"]:after {
+  background-color: #f1c40f;
+}
+/* line 43, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover1-"]:active:after, a.holy.yellow.wb[class*="hover1-"]:active:after, span.holy.yellow.wb[class*="hover1-"]:active:after {
+  background-color: #614f06;
+}
+/* line 48, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover2"], a.holy.yellow.wb[class*="hover2"], span.holy.yellow.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(241, 196, 15, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(241, 196, 15, 0);
+  box-shadow: inset 0 0 0 2px rgba(241, 196, 15, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover2"]:active, a.holy.yellow.wb[class*="hover2"]:active, span.holy.yellow.wb[class*="hover2"]:active {
+  background-color: #aa8a0a;
+  border-color: #aa8a0a;
+}
+/* line 54, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover2"]:hover, a.holy.yellow.wb[class*="hover2"]:hover, span.holy.yellow.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #f9e8a0;
+  -webkit-box-shadow: inset 0 0 0 2px #f9e8a0;
+  box-shadow: inset 0 0 0 2px #f9e8a0;
+}
+/* line 57, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover2"]:active, a.holy.yellow.wb[class*="hover2"]:active, span.holy.yellow.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #aa8a0a;
+  -webkit-box-shadow: inset 0 0 0 2px #aa8a0a;
+  box-shadow: inset 0 0 0 2px #aa8a0a;
+}
+/* line 62, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover3"]:before, a.holy.yellow.wb[class*="hover3"]:before, span.holy.yellow.wb[class*="hover3"]:before {
+  border-right: 1px solid #f1c40f;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover3"]:after, a.holy.yellow.wb[class*="hover3"]:after, span.holy.yellow.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #f1c40f;
+  border-right: 1px solid #f1c40f;
+}
+/* line 72, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover3"]:hover, a.holy.yellow.wb[class*="hover3"]:hover, span.holy.yellow.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #f1c40f;
+}
+/* line 75, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover3"]:hover:before, a.holy.yellow.wb[class*="hover3"]:hover:before, span.holy.yellow.wb[class*="hover3"]:hover:before {
+  background-color: #f1c40f;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover3"]:hover:after, a.holy.yellow.wb[class*="hover3"]:hover:after, span.holy.yellow.wb[class*="hover3"]:hover:after {
+  background-color: #f1c40f;
+}
+/* line 83, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover3"]:active, a.holy.yellow.wb[class*="hover3"]:active, span.holy.yellow.wb[class*="hover3"]:active {
+  color: #aa8a0a;
+  border-color: #aa8a0a;
+}
+/* line 86, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover3"]:active:before, a.holy.yellow.wb[class*="hover3"]:active:before, span.holy.yellow.wb[class*="hover3"]:active:before {
+  background-color: #aa8a0a;
+  border-color: #aa8a0a;
+}
+/* line 90, ../sass/color.scss */
+button.holy.yellow.wb[class*="hover3"]:active:after, a.holy.yellow.wb[class*="hover3"]:active:after, span.holy.yellow.wb[class*="hover3"]:active:after {
+  background-color: #aa8a0a;
+  border-color: #aa8a0a;
+}
+/* line 102, ../sass/color.scss */
+button.holy.yellow.threeD, a.holy.yellow.threeD, span.holy.yellow.threeD {
+  background-color: #f1c40f;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.yellow.threeD:not([class*="style"]), a.holy.yellow.threeD:not([class*="style"]), span.holy.yellow.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #927608;
+  -webkit-box-shadow: 0 5px #927608;
+  box-shadow: 0 5px #927608;
+}
+/* line 109, ../sass/color.scss */
+button.holy.yellow.threeD:not([class*="style"]):hover, a.holy.yellow.threeD:not([class*="style"]):hover, span.holy.yellow.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #927608;
+  -webkit-box-shadow: 0 3px #927608;
+  box-shadow: 0 3px #927608;
+}
+/* line 113, ../sass/color.scss */
+button.holy.yellow.threeD:not([class*="style"]):active, a.holy.yellow.threeD:not([class*="style"]):active, span.holy.yellow.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #927608;
+  -webkit-box-shadow: 0 0 #927608;
+  box-shadow: 0 0 #927608;
+}
+/* line 118, ../sass/color.scss */
+button.holy.yellow.threeD.style1-top, a.holy.yellow.threeD.style1-top, span.holy.yellow.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #927608;
+  -webkit-box-shadow: 0 -5px #927608;
+  box-shadow: 0 -5px #927608;
+}
+/* line 121, ../sass/color.scss */
+button.holy.yellow.threeD.style1-top:hover, a.holy.yellow.threeD.style1-top:hover, span.holy.yellow.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #927608;
+  -webkit-box-shadow: 0 -3px #927608;
+  box-shadow: 0 -3px #927608;
+}
+/* line 125, ../sass/color.scss */
+button.holy.yellow.threeD.style1-top:active, a.holy.yellow.threeD.style1-top:active, span.holy.yellow.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #927608;
+  -webkit-box-shadow: 0 0 #927608;
+  box-shadow: 0 0 #927608;
+}
+/* line 130, ../sass/color.scss */
+button.holy.yellow.threeD.style1-left, a.holy.yellow.threeD.style1-left, span.holy.yellow.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #927608;
+  -webkit-box-shadow: -5px 0 #927608;
+  box-shadow: -5px 0 #927608;
+}
+/* line 133, ../sass/color.scss */
+button.holy.yellow.threeD.style1-left:hover, a.holy.yellow.threeD.style1-left:hover, span.holy.yellow.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #927608;
+  -webkit-box-shadow: -3px 0 #927608;
+  box-shadow: -3px 0 #927608;
+}
+/* line 137, ../sass/color.scss */
+button.holy.yellow.threeD.style1-left:active, a.holy.yellow.threeD.style1-left:active, span.holy.yellow.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #927608;
+  -webkit-box-shadow: 0 0 #927608;
+  box-shadow: 0 0 #927608;
+}
+/* line 142, ../sass/color.scss */
+button.holy.yellow.threeD.style1-right, a.holy.yellow.threeD.style1-right, span.holy.yellow.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #927608;
+  -webkit-box-shadow: 5px 0 #927608;
+  box-shadow: 5px 0 #927608;
+}
+/* line 145, ../sass/color.scss */
+button.holy.yellow.threeD.style1-right:hover, a.holy.yellow.threeD.style1-right:hover, span.holy.yellow.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #927608;
+  -webkit-box-shadow: 3px 0 #927608;
+  box-shadow: 3px 0 #927608;
+}
+/* line 149, ../sass/color.scss */
+button.holy.yellow.threeD.style1-right:active, a.holy.yellow.threeD.style1-right:active, span.holy.yellow.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #927608;
+  -webkit-box-shadow: 0 0 #927608;
+  box-shadow: 0 0 #927608;
+}
+/* line 154, ../sass/color.scss */
+button.holy.yellow.threeD.style2, a.holy.yellow.threeD.style2, span.holy.yellow.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #fbedb8;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #fbedb8;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #fbedb8;
+  background-image: -moz-linear-gradient(top, #f4d03f, #f1c40f);
+  background-image: -webkit-linear-gradient(top, #f4d03f, #f1c40f);
+  background-image: linear-gradient(to bottom, #f4d03f, #f1c40f);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.yellow.threeD.style2:hover, a.holy.yellow.threeD.style2:hover, span.holy.yellow.threeD.style2:hover {
+  background-image: none;
+  background-color: #f1c40f;
+}
+/* line 163, ../sass/color.scss */
+button.holy.yellow.threeD.style2:active, a.holy.yellow.threeD.style2:active, span.holy.yellow.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #927608, #f2ca27);
+  background-image: -webkit-linear-gradient(top, #927608, #f2ca27);
+  background-image: linear-gradient(to bottom, #927608, #f2ca27);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #fbedb8;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #fbedb8;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #fbedb8;
+}
+/* line 169, ../sass/color.scss */
+button.holy.yellow.threeD.style3, a.holy.yellow.threeD.style3, span.holy.yellow.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #c29d0b, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #c29d0b, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #c29d0b, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #f4d03f, #f1c40f);
+  background-image: -webkit-linear-gradient(top, #f4d03f, #f1c40f);
+  background-image: linear-gradient(to bottom, #f4d03f, #f1c40f);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.yellow.threeD.style3:hover, a.holy.yellow.threeD.style3:hover, span.holy.yellow.threeD.style3:hover {
+  background-image: none;
+  background-color: #f1c40f;
+}
+/* line 178, ../sass/color.scss */
+button.holy.yellow.threeD.style3:active, a.holy.yellow.threeD.style3:active, span.holy.yellow.threeD.style3:active {
+  top: 3px;
+  background-color: #f1c40f;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #c29d0b, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #c29d0b, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #c29d0b, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.yellow.gymicon[class*="move-"], a.holy.yellow.gymicon[class*="move-"], span.holy.yellow.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.yellow.gymicon[class*="move-"]:before, a.holy.yellow.gymicon[class*="move-"]:before, span.holy.yellow.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.yellow.gymicon.move-left:before, a.holy.yellow.gymicon.move-left:before, span.holy.yellow.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #927608;
+}
+/* line 203, ../sass/color.scss */
+button.holy.yellow.gymicon.move-left:hover:before, a.holy.yellow.gymicon.move-left:hover:before, span.holy.yellow.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.yellow.gymicon.move-bottom:before, a.holy.yellow.gymicon.move-bottom:before, span.holy.yellow.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #927608;
+}
+/* line 215, ../sass/color.scss */
+button.holy.yellow.gymicon.move-bottom:hover:before, a.holy.yellow.gymicon.move-bottom:hover:before, span.holy.yellow.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.yellow.gymicon.move-top:before, a.holy.yellow.gymicon.move-top:before, span.holy.yellow.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #927608;
+}
+/* line 226, ../sass/color.scss */
+button.holy.yellow.gymicon.move-top:hover:before, a.holy.yellow.gymicon.move-top:hover:before, span.holy.yellow.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.yellow.vertical.style1:before, a.holy.yellow.vertical.style1:before, span.holy.yellow.vertical.style1:before {
+  border-bottom: 1px solid #927608;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.yellow.vertical.style1 span, a.holy.yellow.vertical.style1 span, span.holy.yellow.vertical.style1 span {
+  border-top: 1px solid #f7dc6f;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.yellow.vertical.style1:hover:before, a.holy.yellow.vertical.style1:hover:before, span.holy.yellow.vertical.style1:hover:before {
+  border-bottom: 1px solid #614f06;
+}
+/* line 243, ../sass/color.scss */
+button.holy.yellow.vertical.style1:hover span, a.holy.yellow.vertical.style1:hover span, span.holy.yellow.vertical.style1:hover span {
+  border-top: 1px solid #f1c40f;
+}
+/* line 246, ../sass/color.scss */
+button.holy.yellow.vertical.style1:active:before, a.holy.yellow.vertical.style1:active:before, span.holy.yellow.vertical.style1:active:before {
+  border-bottom: 1px solid #312803;
+}
+/* line 247, ../sass/color.scss */
+button.holy.yellow.vertical.style1:active span, a.holy.yellow.vertical.style1:active span, span.holy.yellow.vertical.style1:active span {
+  border-top: 1px solid #927608;
+}
+/* line 250, ../sass/color.scss */
+button.holy.yellow.vertical.style2, a.holy.yellow.vertical.style2, span.holy.yellow.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #927608, inset 0 0 1px #f1c40f, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #927608, inset 0 0 1px #f1c40f, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #927608, inset 0 0 1px #f1c40f, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #f1c40f 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #f1c40f 50%);
+  background-image: linear-gradient(#ffffff 50%, #f1c40f 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.yellow.vertical.style2:before, a.holy.yellow.vertical.style2:before, span.holy.yellow.vertical.style2:before {
+  color: #f1c40f;
+}
+/* line 257, ../sass/color.scss */
+button.holy.yellow.vertical.style2:hover, a.holy.yellow.vertical.style2:hover, span.holy.yellow.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #dab10d 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #dab10d 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #dab10d 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.yellow.vertical.style2:hover:before, a.holy.yellow.vertical.style2:hover:before, span.holy.yellow.vertical.style2:hover:before {
+  color: #dab10d;
+}
+/* line 263, ../sass/color.scss */
+button.holy.yellow.vertical.style2:active, a.holy.yellow.vertical.style2:active, span.holy.yellow.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #dab10d, inset 0 0 1px #f1c40f, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #dab10d, inset 0 0 1px #f1c40f, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #dab10d, inset 0 0 1px #f1c40f, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #dab10d 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #dab10d 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #dab10d 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.yellow.vertical.style2:active:before, a.holy.yellow.vertical.style2:active:before, span.holy.yellow.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #927608;
+  -webkit-box-shadow: 0 5px 5px -3px #927608;
+  box-shadow: 0 5px 5px -3px #927608;
+}
+/* line 284, ../sass/color.scss */
+button.holy.turquoise, a.holy.turquoise, span.holy.turquoise {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.turquoise.simple, a.holy.turquoise.simple, span.holy.turquoise.simple {
+  background-color: #1abc9c;
+}
+/* line 11, ../sass/color.scss */
+button.holy.turquoise.simple:hover, a.holy.turquoise.simple:hover, span.holy.turquoise.simple:hover {
+  background-color: #117964;
+}
+/* line 14, ../sass/color.scss */
+button.holy.turquoise.simple:active, a.holy.turquoise.simple:active, span.holy.turquoise.simple:active {
+  background-color: #07362c;
+}
+/* line 23, ../sass/color.scss */
+button.holy.turquoise.wb, a.holy.turquoise.wb, span.holy.turquoise.wb {
+  background-color: white;
+  color: #1abc9c;
+  border: 2px solid #1abc9c;
+}
+/* line 27, ../sass/color.scss */
+button.holy.turquoise.wb:hover, a.holy.turquoise.wb:hover, span.holy.turquoise.wb:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.turquoise.wb:active, a.holy.turquoise.wb:active, span.holy.turquoise.wb:active {
+  background-color: #07362c;
+  border-color: #07362c;
+}
+/* line 36, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover1-"]:hover, a.holy.turquoise.wb[class*="hover1-"]:hover, span.holy.turquoise.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover1-"]:after, a.holy.turquoise.wb[class*="hover1-"]:after, span.holy.turquoise.wb[class*="hover1-"]:after {
+  background-color: #1abc9c;
+}
+/* line 43, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover1-"]:active:after, a.holy.turquoise.wb[class*="hover1-"]:active:after, span.holy.turquoise.wb[class*="hover1-"]:active:after {
+  background-color: #07362c;
+}
+/* line 48, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover2"], a.holy.turquoise.wb[class*="hover2"], span.holy.turquoise.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(26, 188, 156, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(26, 188, 156, 0);
+  box-shadow: inset 0 0 0 2px rgba(26, 188, 156, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover2"]:active, a.holy.turquoise.wb[class*="hover2"]:active, span.holy.turquoise.wb[class*="hover2"]:active {
+  background-color: #117964;
+  border-color: #117964;
+}
+/* line 54, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover2"]:hover, a.holy.turquoise.wb[class*="hover2"]:hover, span.holy.turquoise.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #81eed8;
+  -webkit-box-shadow: inset 0 0 0 2px #81eed8;
+  box-shadow: inset 0 0 0 2px #81eed8;
+}
+/* line 57, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover2"]:active, a.holy.turquoise.wb[class*="hover2"]:active, span.holy.turquoise.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #117964;
+  -webkit-box-shadow: inset 0 0 0 2px #117964;
+  box-shadow: inset 0 0 0 2px #117964;
+}
+/* line 62, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover3"]:before, a.holy.turquoise.wb[class*="hover3"]:before, span.holy.turquoise.wb[class*="hover3"]:before {
+  border-right: 1px solid #1abc9c;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover3"]:after, a.holy.turquoise.wb[class*="hover3"]:after, span.holy.turquoise.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #1abc9c;
+  border-right: 1px solid #1abc9c;
+}
+/* line 72, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover3"]:hover, a.holy.turquoise.wb[class*="hover3"]:hover, span.holy.turquoise.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #1abc9c;
+}
+/* line 75, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover3"]:hover:before, a.holy.turquoise.wb[class*="hover3"]:hover:before, span.holy.turquoise.wb[class*="hover3"]:hover:before {
+  background-color: #1abc9c;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover3"]:hover:after, a.holy.turquoise.wb[class*="hover3"]:hover:after, span.holy.turquoise.wb[class*="hover3"]:hover:after {
+  background-color: #1abc9c;
+}
+/* line 83, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover3"]:active, a.holy.turquoise.wb[class*="hover3"]:active, span.holy.turquoise.wb[class*="hover3"]:active {
+  color: #117964;
+  border-color: #117964;
+}
+/* line 86, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover3"]:active:before, a.holy.turquoise.wb[class*="hover3"]:active:before, span.holy.turquoise.wb[class*="hover3"]:active:before {
+  background-color: #117964;
+  border-color: #117964;
+}
+/* line 90, ../sass/color.scss */
+button.holy.turquoise.wb[class*="hover3"]:active:after, a.holy.turquoise.wb[class*="hover3"]:active:after, span.holy.turquoise.wb[class*="hover3"]:active:after {
+  background-color: #117964;
+  border-color: #117964;
+}
+/* line 102, ../sass/color.scss */
+button.holy.turquoise.threeD, a.holy.turquoise.threeD, span.holy.turquoise.threeD {
+  background-color: #1abc9c;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.turquoise.threeD:not([class*="style"]), a.holy.turquoise.threeD:not([class*="style"]), span.holy.turquoise.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #0e6252;
+  -webkit-box-shadow: 0 5px #0e6252;
+  box-shadow: 0 5px #0e6252;
+}
+/* line 109, ../sass/color.scss */
+button.holy.turquoise.threeD:not([class*="style"]):hover, a.holy.turquoise.threeD:not([class*="style"]):hover, span.holy.turquoise.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #0e6252;
+  -webkit-box-shadow: 0 3px #0e6252;
+  box-shadow: 0 3px #0e6252;
+}
+/* line 113, ../sass/color.scss */
+button.holy.turquoise.threeD:not([class*="style"]):active, a.holy.turquoise.threeD:not([class*="style"]):active, span.holy.turquoise.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #0e6252;
+  -webkit-box-shadow: 0 0 #0e6252;
+  box-shadow: 0 0 #0e6252;
+}
+/* line 118, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-top, a.holy.turquoise.threeD.style1-top, span.holy.turquoise.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #0e6252;
+  -webkit-box-shadow: 0 -5px #0e6252;
+  box-shadow: 0 -5px #0e6252;
+}
+/* line 121, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-top:hover, a.holy.turquoise.threeD.style1-top:hover, span.holy.turquoise.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #0e6252;
+  -webkit-box-shadow: 0 -3px #0e6252;
+  box-shadow: 0 -3px #0e6252;
+}
+/* line 125, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-top:active, a.holy.turquoise.threeD.style1-top:active, span.holy.turquoise.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #0e6252;
+  -webkit-box-shadow: 0 0 #0e6252;
+  box-shadow: 0 0 #0e6252;
+}
+/* line 130, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-left, a.holy.turquoise.threeD.style1-left, span.holy.turquoise.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #0e6252;
+  -webkit-box-shadow: -5px 0 #0e6252;
+  box-shadow: -5px 0 #0e6252;
+}
+/* line 133, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-left:hover, a.holy.turquoise.threeD.style1-left:hover, span.holy.turquoise.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #0e6252;
+  -webkit-box-shadow: -3px 0 #0e6252;
+  box-shadow: -3px 0 #0e6252;
+}
+/* line 137, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-left:active, a.holy.turquoise.threeD.style1-left:active, span.holy.turquoise.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #0e6252;
+  -webkit-box-shadow: 0 0 #0e6252;
+  box-shadow: 0 0 #0e6252;
+}
+/* line 142, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-right, a.holy.turquoise.threeD.style1-right, span.holy.turquoise.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #0e6252;
+  -webkit-box-shadow: 5px 0 #0e6252;
+  box-shadow: 5px 0 #0e6252;
+}
+/* line 145, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-right:hover, a.holy.turquoise.threeD.style1-right:hover, span.holy.turquoise.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #0e6252;
+  -webkit-box-shadow: 3px 0 #0e6252;
+  box-shadow: 3px 0 #0e6252;
+}
+/* line 149, ../sass/color.scss */
+button.holy.turquoise.threeD.style1-right:active, a.holy.turquoise.threeD.style1-right:active, span.holy.turquoise.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #0e6252;
+  -webkit-box-shadow: 0 0 #0e6252;
+  box-shadow: 0 0 #0e6252;
+}
+/* line 154, ../sass/color.scss */
+button.holy.turquoise.threeD.style2, a.holy.turquoise.threeD.style2, span.holy.turquoise.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #98f1df;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #98f1df;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #98f1df;
+  background-image: -moz-linear-gradient(top, #28e1bd, #1abc9c);
+  background-image: -webkit-linear-gradient(top, #28e1bd, #1abc9c);
+  background-image: linear-gradient(to bottom, #28e1bd, #1abc9c);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.turquoise.threeD.style2:hover, a.holy.turquoise.threeD.style2:hover, span.holy.turquoise.threeD.style2:hover {
+  background-image: none;
+  background-color: #1abc9c;
+}
+/* line 163, ../sass/color.scss */
+button.holy.turquoise.threeD.style2:active, a.holy.turquoise.threeD.style2:active, span.holy.turquoise.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #0e6252, #1dd2af);
+  background-image: -webkit-linear-gradient(top, #0e6252, #1dd2af);
+  background-image: linear-gradient(to bottom, #0e6252, #1dd2af);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #98f1df;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #98f1df;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #98f1df;
+}
+/* line 169, ../sass/color.scss */
+button.holy.turquoise.threeD.style3, a.holy.turquoise.threeD.style3, span.holy.turquoise.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #148f77, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #148f77, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #148f77, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #28e1bd, #1abc9c);
+  background-image: -webkit-linear-gradient(top, #28e1bd, #1abc9c);
+  background-image: linear-gradient(to bottom, #28e1bd, #1abc9c);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.turquoise.threeD.style3:hover, a.holy.turquoise.threeD.style3:hover, span.holy.turquoise.threeD.style3:hover {
+  background-image: none;
+  background-color: #1abc9c;
+}
+/* line 178, ../sass/color.scss */
+button.holy.turquoise.threeD.style3:active, a.holy.turquoise.threeD.style3:active, span.holy.turquoise.threeD.style3:active {
+  top: 3px;
+  background-color: #1abc9c;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #148f77, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #148f77, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #148f77, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.turquoise.gymicon[class*="move-"], a.holy.turquoise.gymicon[class*="move-"], span.holy.turquoise.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.turquoise.gymicon[class*="move-"]:before, a.holy.turquoise.gymicon[class*="move-"]:before, span.holy.turquoise.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.turquoise.gymicon.move-left:before, a.holy.turquoise.gymicon.move-left:before, span.holy.turquoise.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #0e6252;
+}
+/* line 203, ../sass/color.scss */
+button.holy.turquoise.gymicon.move-left:hover:before, a.holy.turquoise.gymicon.move-left:hover:before, span.holy.turquoise.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.turquoise.gymicon.move-bottom:before, a.holy.turquoise.gymicon.move-bottom:before, span.holy.turquoise.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #0e6252;
+}
+/* line 215, ../sass/color.scss */
+button.holy.turquoise.gymicon.move-bottom:hover:before, a.holy.turquoise.gymicon.move-bottom:hover:before, span.holy.turquoise.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.turquoise.gymicon.move-top:before, a.holy.turquoise.gymicon.move-top:before, span.holy.turquoise.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #0e6252;
+}
+/* line 226, ../sass/color.scss */
+button.holy.turquoise.gymicon.move-top:hover:before, a.holy.turquoise.gymicon.move-top:hover:before, span.holy.turquoise.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.turquoise.vertical.style1:before, a.holy.turquoise.vertical.style1:before, span.holy.turquoise.vertical.style1:before {
+  border-bottom: 1px solid #0e6252;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.turquoise.vertical.style1 span, a.holy.turquoise.vertical.style1 span, span.holy.turquoise.vertical.style1 span {
+  border-top: 1px solid #55e7ca;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.turquoise.vertical.style1:hover:before, a.holy.turquoise.vertical.style1:hover:before, span.holy.turquoise.vertical.style1:hover:before {
+  border-bottom: 1px solid #07362c;
+}
+/* line 243, ../sass/color.scss */
+button.holy.turquoise.vertical.style1:hover span, a.holy.turquoise.vertical.style1:hover span, span.holy.turquoise.vertical.style1:hover span {
+  border-top: 1px solid #1abc9c;
+}
+/* line 246, ../sass/color.scss */
+button.holy.turquoise.vertical.style1:active:before, a.holy.turquoise.vertical.style1:active:before, span.holy.turquoise.vertical.style1:active:before {
+  border-bottom: 1px solid #010907;
+}
+/* line 247, ../sass/color.scss */
+button.holy.turquoise.vertical.style1:active span, a.holy.turquoise.vertical.style1:active span, span.holy.turquoise.vertical.style1:active span {
+  border-top: 1px solid #0e6252;
+}
+/* line 250, ../sass/color.scss */
+button.holy.turquoise.vertical.style2, a.holy.turquoise.vertical.style2, span.holy.turquoise.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #0e6252, inset 0 0 1px #1abc9c, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #0e6252, inset 0 0 1px #1abc9c, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #0e6252, inset 0 0 1px #1abc9c, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #1abc9c 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #1abc9c 50%);
+  background-image: linear-gradient(#ffffff 50%, #1abc9c 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.turquoise.vertical.style2:before, a.holy.turquoise.vertical.style2:before, span.holy.turquoise.vertical.style2:before {
+  color: #1abc9c;
+}
+/* line 257, ../sass/color.scss */
+button.holy.turquoise.vertical.style2:hover, a.holy.turquoise.vertical.style2:hover, span.holy.turquoise.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #17a689 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #17a689 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #17a689 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.turquoise.vertical.style2:hover:before, a.holy.turquoise.vertical.style2:hover:before, span.holy.turquoise.vertical.style2:hover:before {
+  color: #17a689;
+}
+/* line 263, ../sass/color.scss */
+button.holy.turquoise.vertical.style2:active, a.holy.turquoise.vertical.style2:active, span.holy.turquoise.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #17a689, inset 0 0 1px #1abc9c, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #17a689, inset 0 0 1px #1abc9c, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #17a689, inset 0 0 1px #1abc9c, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #17a689 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #17a689 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #17a689 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.turquoise.vertical.style2:active:before, a.holy.turquoise.vertical.style2:active:before, span.holy.turquoise.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #0e6252;
+  -webkit-box-shadow: 0 5px 5px -3px #0e6252;
+  box-shadow: 0 5px 5px -3px #0e6252;
+}
+/* line 285, ../sass/color.scss */
+button.holy.pink, a.holy.pink, span.holy.pink {
+  /***************************************
+  SIMPLE (Style #1)
+  ****************************************/
+  /***************************************
+  WHITE BLOW (Style #2)
+  ****************************************/
+  /***************************************
+  ISOMETRIC (Style #3)
+  ****************************************/
+  /***************************************
+  GYM'ICON (Style #4)
+  ****************************************/
+  /***************************************
+  VERTICAL (Style #5)
+  ****************************************/
+}
+/* line 9, ../sass/color.scss */
+button.holy.pink.simple, a.holy.pink.simple, span.holy.pink.simple {
+  background-color: #d2527f;
+}
+/* line 11, ../sass/color.scss */
+button.holy.pink.simple:hover, a.holy.pink.simple:hover, span.holy.pink.simple:hover {
+  background-color: #ab2c59;
+}
+/* line 14, ../sass/color.scss */
+button.holy.pink.simple:active, a.holy.pink.simple:active, span.holy.pink.simple:active {
+  background-color: #6e1d39;
+}
+/* line 23, ../sass/color.scss */
+button.holy.pink.wb, a.holy.pink.wb, span.holy.pink.wb {
+  background-color: white;
+  color: #d2527f;
+  border: 2px solid #d2527f;
+}
+/* line 27, ../sass/color.scss */
+button.holy.pink.wb:hover, a.holy.pink.wb:hover, span.holy.pink.wb:hover {
+  background-color: #d2527f;
+  color: white;
+}
+/* line 31, ../sass/color.scss */
+button.holy.pink.wb:active, a.holy.pink.wb:active, span.holy.pink.wb:active {
+  background-color: #6e1d39;
+  border-color: #6e1d39;
+}
+/* line 36, ../sass/color.scss */
+button.holy.pink.wb[class*="hover1-"]:hover, a.holy.pink.wb[class*="hover1-"]:hover, span.holy.pink.wb[class*="hover1-"]:hover {
+  background-color: transparent;
+}
+/* line 39, ../sass/color.scss */
+button.holy.pink.wb[class*="hover1-"]:after, a.holy.pink.wb[class*="hover1-"]:after, span.holy.pink.wb[class*="hover1-"]:after {
+  background-color: #d2527f;
+}
+/* line 43, ../sass/color.scss */
+button.holy.pink.wb[class*="hover1-"]:active:after, a.holy.pink.wb[class*="hover1-"]:active:after, span.holy.pink.wb[class*="hover1-"]:active:after {
+  background-color: #6e1d39;
+}
+/* line 48, ../sass/color.scss */
+button.holy.pink.wb[class*="hover2"], a.holy.pink.wb[class*="hover2"], span.holy.pink.wb[class*="hover2"] {
+  -moz-box-shadow: inset 0 0 0 2px rgba(210, 82, 127, 0);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(210, 82, 127, 0);
+  box-shadow: inset 0 0 0 2px rgba(210, 82, 127, 0);
+}
+/* line 49, ../sass/color.scss */
+button.holy.pink.wb[class*="hover2"]:active, a.holy.pink.wb[class*="hover2"]:active, span.holy.pink.wb[class*="hover2"]:active {
+  background-color: #ab2c59;
+  border-color: #ab2c59;
+}
+/* line 54, ../sass/color.scss */
+button.holy.pink.wb[class*="hover2"]:hover, a.holy.pink.wb[class*="hover2"]:hover, span.holy.pink.wb[class*="hover2"]:hover {
+  -moz-box-shadow: inset 0 0 0 2px #f2cbd9;
+  -webkit-box-shadow: inset 0 0 0 2px #f2cbd9;
+  box-shadow: inset 0 0 0 2px #f2cbd9;
+}
+/* line 57, ../sass/color.scss */
+button.holy.pink.wb[class*="hover2"]:active, a.holy.pink.wb[class*="hover2"]:active, span.holy.pink.wb[class*="hover2"]:active {
+  -moz-box-shadow: inset 0 0 0 2px #ab2c59;
+  -webkit-box-shadow: inset 0 0 0 2px #ab2c59;
+  box-shadow: inset 0 0 0 2px #ab2c59;
+}
+/* line 62, ../sass/color.scss */
+button.holy.pink.wb[class*="hover3"]:before, a.holy.pink.wb[class*="hover3"]:before, span.holy.pink.wb[class*="hover3"]:before {
+  border-right: 1px solid #d2527f;
+  background-color: white;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 67, ../sass/color.scss */
+button.holy.pink.wb[class*="hover3"]:after, a.holy.pink.wb[class*="hover3"]:after, span.holy.pink.wb[class*="hover3"]:after {
+  background-color: white;
+  border-top: 1px solid #d2527f;
+  border-right: 1px solid #d2527f;
+}
+/* line 72, ../sass/color.scss */
+button.holy.pink.wb[class*="hover3"]:hover, a.holy.pink.wb[class*="hover3"]:hover, span.holy.pink.wb[class*="hover3"]:hover {
+  background-color: white;
+  color: #d2527f;
+}
+/* line 75, ../sass/color.scss */
+button.holy.pink.wb[class*="hover3"]:hover:before, a.holy.pink.wb[class*="hover3"]:hover:before, span.holy.pink.wb[class*="hover3"]:hover:before {
+  background-color: #d2527f;
+  color: white;
+}
+/* line 79, ../sass/color.scss */
+button.holy.pink.wb[class*="hover3"]:hover:after, a.holy.pink.wb[class*="hover3"]:hover:after, span.holy.pink.wb[class*="hover3"]:hover:after {
+  background-color: #d2527f;
+}
+/* line 83, ../sass/color.scss */
+button.holy.pink.wb[class*="hover3"]:active, a.holy.pink.wb[class*="hover3"]:active, span.holy.pink.wb[class*="hover3"]:active {
+  color: #ab2c59;
+  border-color: #ab2c59;
+}
+/* line 86, ../sass/color.scss */
+button.holy.pink.wb[class*="hover3"]:active:before, a.holy.pink.wb[class*="hover3"]:active:before, span.holy.pink.wb[class*="hover3"]:active:before {
+  background-color: #ab2c59;
+  border-color: #ab2c59;
+}
+/* line 90, ../sass/color.scss */
+button.holy.pink.wb[class*="hover3"]:active:after, a.holy.pink.wb[class*="hover3"]:active:after, span.holy.pink.wb[class*="hover3"]:active:after {
+  background-color: #ab2c59;
+  border-color: #ab2c59;
+}
+/* line 102, ../sass/color.scss */
+button.holy.pink.threeD, a.holy.pink.threeD, span.holy.pink.threeD {
+  background-color: #d2527f;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 106, ../sass/color.scss */
+button.holy.pink.threeD:not([class*="style"]), a.holy.pink.threeD:not([class*="style"]), span.holy.pink.threeD:not([class*="style"]) {
+  top: 0;
+  -moz-box-shadow: 0 5px #97274e;
+  -webkit-box-shadow: 0 5px #97274e;
+  box-shadow: 0 5px #97274e;
+}
+/* line 109, ../sass/color.scss */
+button.holy.pink.threeD:not([class*="style"]):hover, a.holy.pink.threeD:not([class*="style"]):hover, span.holy.pink.threeD:not([class*="style"]):hover {
+  top: 2px;
+  -moz-box-shadow: 0 3px #97274e;
+  -webkit-box-shadow: 0 3px #97274e;
+  box-shadow: 0 3px #97274e;
+}
+/* line 113, ../sass/color.scss */
+button.holy.pink.threeD:not([class*="style"]):active, a.holy.pink.threeD:not([class*="style"]):active, span.holy.pink.threeD:not([class*="style"]):active {
+  top: 5px;
+  -moz-box-shadow: 0 0 #97274e;
+  -webkit-box-shadow: 0 0 #97274e;
+  box-shadow: 0 0 #97274e;
+}
+/* line 118, ../sass/color.scss */
+button.holy.pink.threeD.style1-top, a.holy.pink.threeD.style1-top, span.holy.pink.threeD.style1-top {
+  top: 0;
+  -moz-box-shadow: 0 -5px #97274e;
+  -webkit-box-shadow: 0 -5px #97274e;
+  box-shadow: 0 -5px #97274e;
+}
+/* line 121, ../sass/color.scss */
+button.holy.pink.threeD.style1-top:hover, a.holy.pink.threeD.style1-top:hover, span.holy.pink.threeD.style1-top:hover {
+  top: -2px;
+  -moz-box-shadow: 0 -3px #97274e;
+  -webkit-box-shadow: 0 -3px #97274e;
+  box-shadow: 0 -3px #97274e;
+}
+/* line 125, ../sass/color.scss */
+button.holy.pink.threeD.style1-top:active, a.holy.pink.threeD.style1-top:active, span.holy.pink.threeD.style1-top:active {
+  top: -5px;
+  -moz-box-shadow: 0 0 #97274e;
+  -webkit-box-shadow: 0 0 #97274e;
+  box-shadow: 0 0 #97274e;
+}
+/* line 130, ../sass/color.scss */
+button.holy.pink.threeD.style1-left, a.holy.pink.threeD.style1-left, span.holy.pink.threeD.style1-left {
+  left: 0;
+  -moz-box-shadow: -5px 0 #97274e;
+  -webkit-box-shadow: -5px 0 #97274e;
+  box-shadow: -5px 0 #97274e;
+}
+/* line 133, ../sass/color.scss */
+button.holy.pink.threeD.style1-left:hover, a.holy.pink.threeD.style1-left:hover, span.holy.pink.threeD.style1-left:hover {
+  left: -2px;
+  -moz-box-shadow: -3px 0 #97274e;
+  -webkit-box-shadow: -3px 0 #97274e;
+  box-shadow: -3px 0 #97274e;
+}
+/* line 137, ../sass/color.scss */
+button.holy.pink.threeD.style1-left:active, a.holy.pink.threeD.style1-left:active, span.holy.pink.threeD.style1-left:active {
+  left: -5px;
+  -moz-box-shadow: 0 0 #97274e;
+  -webkit-box-shadow: 0 0 #97274e;
+  box-shadow: 0 0 #97274e;
+}
+/* line 142, ../sass/color.scss */
+button.holy.pink.threeD.style1-right, a.holy.pink.threeD.style1-right, span.holy.pink.threeD.style1-right {
+  right: 0;
+  -moz-box-shadow: 5px 0 #97274e;
+  -webkit-box-shadow: 5px 0 #97274e;
+  box-shadow: 5px 0 #97274e;
+}
+/* line 145, ../sass/color.scss */
+button.holy.pink.threeD.style1-right:hover, a.holy.pink.threeD.style1-right:hover, span.holy.pink.threeD.style1-right:hover {
+  right: -2px;
+  -moz-box-shadow: 3px 0 #97274e;
+  -webkit-box-shadow: 3px 0 #97274e;
+  box-shadow: 3px 0 #97274e;
+}
+/* line 149, ../sass/color.scss */
+button.holy.pink.threeD.style1-right:active, a.holy.pink.threeD.style1-right:active, span.holy.pink.threeD.style1-right:active {
+  right: -5px;
+  -moz-box-shadow: 0 0 #97274e;
+  -webkit-box-shadow: 0 0 #97274e;
+  box-shadow: 0 0 #97274e;
+}
+/* line 154, ../sass/color.scss */
+button.holy.pink.threeD.style2, a.holy.pink.threeD.style2, span.holy.pink.threeD.style2 {
+  position: relative;
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f7e0e8;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f7e0e8;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45), 0 0 0 6px #f7e0e8;
+  background-image: -moz-linear-gradient(top, #dd7a9d, #d2527f);
+  background-image: -webkit-linear-gradient(top, #dd7a9d, #d2527f);
+  background-image: linear-gradient(to bottom, #dd7a9d, #d2527f);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 159, ../sass/color.scss */
+button.holy.pink.threeD.style2:hover, a.holy.pink.threeD.style2:hover, span.holy.pink.threeD.style2:hover {
+  background-image: none;
+  background-color: #d2527f;
+}
+/* line 163, ../sass/color.scss */
+button.holy.pink.threeD.style2:active, a.holy.pink.threeD.style2:active, span.holy.pink.threeD.style2:active {
+  top: 1px;
+  background-image: -moz-linear-gradient(top, #97274e, #d7668e);
+  background-image: -webkit-linear-gradient(top, #97274e, #d7668e);
+  background-image: linear-gradient(to bottom, #97274e, #d7668e);
+  -moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f7e0e8;
+  -webkit-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f7e0e8;
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 6px #f7e0e8;
+}
+/* line 169, ../sass/color.scss */
+button.holy.pink.threeD.style3, a.holy.pink.threeD.style3, span.holy.pink.threeD.style3 {
+  position: relative;
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #bf3263, inset 0 1px 0 0 white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #bf3263, inset 0 1px 0 0 white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.6), 0 3px 0 4px #bf3263, inset 0 1px 0 0 white;
+  background-image: -moz-linear-gradient(top, #dd7a9d, #d2527f);
+  background-image: -webkit-linear-gradient(top, #dd7a9d, #d2527f);
+  background-image: linear-gradient(to bottom, #dd7a9d, #d2527f);
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+/* line 174, ../sass/color.scss */
+button.holy.pink.threeD.style3:hover, a.holy.pink.threeD.style3:hover, span.holy.pink.threeD.style3:hover {
+  background-image: none;
+  background-color: #d2527f;
+}
+/* line 178, ../sass/color.scss */
+button.holy.pink.threeD.style3:active, a.holy.pink.threeD.style3:active, span.holy.pink.threeD.style3:active {
+  top: 3px;
+  background-color: #d2527f;
+  -moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #bf3263, inset 0 0 0 0 white;
+  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #bf3263, inset 0 0 0 0 white;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 4px #bf3263, inset 0 0 0 0 white;
+}
+/* line 191, ../sass/color.scss */
+button.holy.pink.gymicon[class*="move-"], a.holy.pink.gymicon[class*="move-"], span.holy.pink.gymicon[class*="move-"] {
+  overflow: hidden;
+}
+/* line 193, ../sass/color.scss */
+button.holy.pink.gymicon[class*="move-"]:before, a.holy.pink.gymicon[class*="move-"]:before, span.holy.pink.gymicon[class*="move-"]:before {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 198, ../sass/color.scss */
+button.holy.pink.gymicon.move-left:before, a.holy.pink.gymicon.move-left:before, span.holy.pink.gymicon.move-left:before {
+  left: -80px;
+  text-shadow: 80px 0 #97274e;
+}
+/* line 203, ../sass/color.scss */
+button.holy.pink.gymicon.move-left:hover:before, a.holy.pink.gymicon.move-left:hover:before, span.holy.pink.gymicon.move-left:hover:before {
+  left: 0;
+  text-shadow: none;
+}
+/* line 210, ../sass/color.scss */
+button.holy.pink.gymicon.move-bottom:before, a.holy.pink.gymicon.move-bottom:before, span.holy.pink.gymicon.move-bottom:before {
+  bottom: -80px;
+  text-shadow: 0 -80px #97274e;
+}
+/* line 215, ../sass/color.scss */
+button.holy.pink.gymicon.move-bottom:hover:before, a.holy.pink.gymicon.move-bottom:hover:before, span.holy.pink.gymicon.move-bottom:hover:before {
+  bottom: 0;
+}
+/* line 221, ../sass/color.scss */
+button.holy.pink.gymicon.move-top:before, a.holy.pink.gymicon.move-top:before, span.holy.pink.gymicon.move-top:before {
+  top: -80px;
+  text-shadow: 0 80px #97274e;
+}
+/* line 226, ../sass/color.scss */
+button.holy.pink.gymicon.move-top:hover:before, a.holy.pink.gymicon.move-top:hover:before, span.holy.pink.gymicon.move-top:hover:before {
+  top: 0;
+}
+/* line 239, ../sass/color.scss */
+button.holy.pink.vertical.style1:before, a.holy.pink.vertical.style1:before, span.holy.pink.vertical.style1:before {
+  border-bottom: 1px solid #97274e;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 240, ../sass/color.scss */
+button.holy.pink.vertical.style1 span, a.holy.pink.vertical.style1 span, span.holy.pink.vertical.style1 span {
+  border-top: 1px solid #e7a3bb;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 242, ../sass/color.scss */
+button.holy.pink.vertical.style1:hover:before, a.holy.pink.vertical.style1:hover:before, span.holy.pink.vertical.style1:hover:before {
+  border-bottom: 1px solid #6e1d39;
+}
+/* line 243, ../sass/color.scss */
+button.holy.pink.vertical.style1:hover span, a.holy.pink.vertical.style1:hover span, span.holy.pink.vertical.style1:hover span {
+  border-top: 1px solid #d2527f;
+}
+/* line 246, ../sass/color.scss */
+button.holy.pink.vertical.style1:active:before, a.holy.pink.vertical.style1:active:before, span.holy.pink.vertical.style1:active:before {
+  border-bottom: 1px solid #461224;
+}
+/* line 247, ../sass/color.scss */
+button.holy.pink.vertical.style1:active span, a.holy.pink.vertical.style1:active span, span.holy.pink.vertical.style1:active span {
+  border-top: 1px solid #97274e;
+}
+/* line 250, ../sass/color.scss */
+button.holy.pink.vertical.style2, a.holy.pink.vertical.style2, span.holy.pink.vertical.style2 {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  -moz-box-shadow: 0 5px 0 #97274e, inset 0 0 1px #d2527f, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #97274e, inset 0 0 1px #d2527f, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #97274e, inset 0 0 1px #d2527f, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#ffffff 50%, #d2527f 50%);
+  background-image: -webkit-linear-gradient(#ffffff 50%, #d2527f 50%);
+  background-image: linear-gradient(#ffffff 50%, #d2527f 50%);
+}
+/* line 254, ../sass/color.scss */
+button.holy.pink.vertical.style2:before, a.holy.pink.vertical.style2:before, span.holy.pink.vertical.style2:before {
+  color: #d2527f;
+}
+/* line 257, ../sass/color.scss */
+button.holy.pink.vertical.style2:hover, a.holy.pink.vertical.style2:hover, span.holy.pink.vertical.style2:hover {
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #cd3e70 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #cd3e70 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #cd3e70 50%);
+}
+/* line 259, ../sass/color.scss */
+button.holy.pink.vertical.style2:hover:before, a.holy.pink.vertical.style2:hover:before, span.holy.pink.vertical.style2:hover:before {
+  color: #cd3e70;
+}
+/* line 263, ../sass/color.scss */
+button.holy.pink.vertical.style2:active, a.holy.pink.vertical.style2:active, span.holy.pink.vertical.style2:active {
+  -moz-box-shadow: 0 5px 0 #cd3e70, inset 0 0 1px #d2527f, 0 8px 5px #999999;
+  -webkit-box-shadow: 0 5px 0 #cd3e70, inset 0 0 1px #d2527f, 0 8px 5px #999999;
+  box-shadow: 0 5px 0 #cd3e70, inset 0 0 1px #d2527f, 0 8px 5px #999999;
+  background-image: -moz-linear-gradient(#f2f2f2 50%, #cd3e70 50%);
+  background-image: -webkit-linear-gradient(#f2f2f2 50%, #cd3e70 50%);
+  background-image: linear-gradient(#f2f2f2 50%, #cd3e70 50%);
+}
+/* line 266, ../sass/color.scss */
+button.holy.pink.vertical.style2:active:before, a.holy.pink.vertical.style2:active:before, span.holy.pink.vertical.style2:active:before {
+  -moz-box-shadow: 0 5px 5px -3px #97274e;
+  -webkit-box-shadow: 0 5px 5px -3px #97274e;
+  box-shadow: 0 5px 5px -3px #97274e;
+}

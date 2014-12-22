@@ -1,0 +1,287 @@
+@import "base";
+
+@mixin color($color) {
+
+	/***************************************
+	SIMPLE (Style #1)
+	****************************************/
+	
+	&.simple {
+		background-color: $color;
+		&:hover {
+			background-color: darken($color,15%);
+		}
+		&:active {
+			background-color: darken($color,30%);
+		}
+	}
+
+	/***************************************
+	WHITE BLOW (Style #2)
+	****************************************/
+	
+	&.wb {
+		background-color: white;
+		color: $color;
+		border: 2px solid $color;
+		&:hover {
+			background-color: $color;
+			color: white;
+		}
+		&:active {
+			background-color: darken($color,30%);
+			border-color: darken($color,30%);
+		}
+		&[class*="hover1-"] {
+			&:hover {
+				background-color: transparent;
+			}
+			&:after {
+				background-color: $color;
+			}
+			&:active {
+				&:after {
+					background-color: darken($color,30%);
+				}
+			}
+		}
+		&[class*="hover2"] {
+			&:active {
+				background-color: darken($color,15%);
+				border-color: darken($color,15%);
+			}
+			@include box-shadow(inset 0 0 0 2px rgba($color,0));
+			&:hover {
+				@include box-shadow(inset 0 0 0 2px lighten($color,30%));
+			}
+			&:active {
+				@include box-shadow(inset 0 0 0 2px darken($color,15%));
+			}
+		}
+		&[class*="hover3"] {
+			&:before {
+				border-right: 1px solid $color; 
+				background-color: white;
+				@include transition(all .3s);
+			}
+			&:after {
+				background-color: white;
+				border-top: 1px solid $color;
+				border-right: 1px solid $color;
+			}
+			&:hover {
+				background-color: white;
+				color: $color;
+				&:before {
+					background-color: $color;
+					color: white;
+				}
+				&:after {
+					background-color: $color;
+				}
+			}
+			&:active {
+				color: darken($color,15%);
+				border-color: darken($color,15%);
+				&:before {
+					background-color: darken($color,15%);
+					border-color: darken($color,15%); 
+				}
+				&:after {
+					background-color: darken($color,15%);
+					border-color: darken($color,15%); 
+				}
+			}
+		}
+	}
+
+	/***************************************
+	ISOMETRIC (Style #3)
+	****************************************/
+
+	&.threeD {
+		$shadowcolor: 20%;
+		background-color: $color;
+		@include transition(all .1s);
+		&:not([class*="style"]) {
+			top: 0;
+			@include box-shadow(0 5px darken($color,$shadowcolor));
+			&:hover {
+				top: 2px;
+				@include box-shadow(0 3px darken($color,$shadowcolor));
+			}
+			&:active {
+				top: 5px;
+				@include box-shadow(0 0 darken($color,$shadowcolor));
+			}
+		}
+		&.style1-top {
+			top: 0;
+			@include box-shadow(0 -5px darken($color,$shadowcolor));
+			&:hover {
+				top: -2px;
+				@include box-shadow(0 -3px darken($color,$shadowcolor));
+			}
+			&:active {
+				top: -5px;
+				@include box-shadow(0 0 darken($color,$shadowcolor));
+			}
+		}
+		&.style1-left {
+			left: 0;
+			@include box-shadow(-5px 0 darken($color,$shadowcolor));
+			&:hover {
+				left: -2px;
+				@include box-shadow(-3px 0 darken($color,$shadowcolor));
+			}
+			&:active {
+				left: -5px;
+				@include box-shadow(0 0 darken($color,$shadowcolor));
+			}
+		}
+		&.style1-right {
+			right: 0;
+			@include box-shadow(5px 0 darken($color,$shadowcolor));
+			&:hover {
+				right: -2px;
+				@include box-shadow(3px 0 darken($color,$shadowcolor));
+			}
+			&:active {
+				right: -5px;
+				@include box-shadow(0 0 darken($color,$shadowcolor));
+			}
+		}
+		&.style2 {   
+			position: relative;                     
+			@include box-shadow(0 2px 4px 0 rgba(black,0.45), 0 0 0 6px lighten($color, 35%));
+			@include background-image(linear-gradient(top, lighten($color, 10%), $color));
+			@include transition(all 0s); 
+			&:hover {
+				background-image: none;
+				background-color: $color;
+			}
+			&:active {
+				top: 1px;
+				@include background-image(linear-gradient(top, darken($color, 20%), lighten($color, 5%)));
+				@include box-shadow(inset 0 1px 3px 0 rgba(black,0.3), 0 0 0 6px lighten($color, 35%));
+			}
+		}
+		&.style3 {   
+			position: relative;                     
+			@include box-shadow(0 2px 6px 0 rgba(black,0.6), 0 3px 0 4px darken($color, 10%), inset 0 1px 0 0 white);
+			@include background-image(linear-gradient(top, lighten($color, 10%), $color));
+			@include transition(all 0s); 
+			&:hover {
+				background-image: none;
+				background-color: $color;
+			}
+			&:active {
+				top: 3px;
+				background-color: $color;
+				@include box-shadow(inset 0 0 3px 0 rgba(black,0.4), 0 0 0 4px darken($color, 10%), inset 0 0 0 0 white);
+			}
+		}
+	}
+
+	/***************************************
+	GYM'ICON (Style #4)
+	****************************************/
+
+	&.gymicon {
+		&[class*="move-"] {
+			overflow: hidden;
+			&:before {
+				@include transition(all .3s); 
+			}
+		}
+		&.move-left {
+			&:before {
+				left: -80px;
+				@include text-shadow(80px 0 darken($color,20%));
+			}
+			&:hover {
+				&:before {
+					left: 0;
+					@include text-shadow(none);
+				}
+			}
+		}
+		&.move-bottom {
+			&:before {
+				bottom: -80px;
+				@include text-shadow(0 -80px darken($color,20%));
+			}
+			&:hover {
+				&:before {
+					bottom: 0; 
+				}
+			}
+		}
+		&.move-top {
+			&:before {
+				top: -80px;
+				@include text-shadow(0 80px darken($color,20%));
+			}
+			&:hover {
+				&:before {
+					top: 0; 
+				}
+			}
+		}
+	}
+
+	/***************************************
+	VERTICAL (Style #5)
+	****************************************/
+
+	&.vertical { 
+		&.style1 {
+			&:before { border-bottom: 1px solid darken($color, 20%); @include transition(all .3s); }
+			span { border-top: 1px solid lighten($color, 20%); @include transition(all .3s); } 
+			&:hover {
+				&:before { border-bottom: 1px solid darken($color, 30%); }
+				span { border-top: 1px solid $color; } 
+			}
+			&:active {
+				&:before { border-bottom: 1px solid darken($color, 40%); } 
+				span { border-top: 1px solid darken($color, 20%); } 
+			}
+		}
+		&.style2 {
+			@include transition(none);
+			@include box-shadow(0 5px 0 darken($color, 20%), inset 0 0 1px $color, 0 8px 5px #999);
+			@include background-image(linear-gradient(white 50%, $color 50%));
+			&:before { 
+				color: $color;
+			}
+			&:hover {
+				@include background-image(linear-gradient(darken(white, 5%) 50%, darken($color, 5%) 50%));
+				&:before {
+					color: darken($color, 5%);
+				}
+			}
+			&:active {
+				@include box-shadow(0 5px 0 darken($color, 5%), inset 0 0 1px $color, 0 8px 5px #999);
+				@include background-image(linear-gradient(darken(white, 5%) 50%, darken($color, 5%) 50%));
+				&:before {
+					@include box-shadow(0 5px 5px -3px darken($color, 20%));
+				}
+			}
+		}
+	}
+
+}
+
+button.holy, a.holy, span.holy {
+	&.red { @include color($red); }
+	&.blue { @include color($blue); }
+	&.green { @include color($green); }
+	&.black { @include color($black); }
+	&.purple { @include color($purple); }
+	&.grey { @include color($grey); }
+	&.orange { @include color($orange); }
+	&.yellow { @include color($yellow); }
+	&.turquoise { @include color($turquoise); }
+	&.pink { @include color($pink); }
+}
+

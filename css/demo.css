@@ -1,0 +1,62 @@
+/* Border radius
+********************************************************************/
+/* Colors (from the excellent FlatUiColors http://flatuicolors.com/)
+********************************************************************/
+/* Size
+*************************/
+/* line 3, ../sass/demo.scss */
+body {
+  background: url("../img/background.png") repeat;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+/* line 8, ../sass/demo.scss */
+.separator-panel {
+  margin: 0 auto;
+  width: 10px;
+  height: 10px;
+  background-color: #95a5a6;
+  border-radius: 10px;
+}
+
+/* line 16, ../sass/demo.scss */
+.panel {
+  margin-top: 20px;
+  padding-bottom: 0;
+  background-color: white;
+}
+/* line 21, ../sass/demo.scss */
+.panel.panel-color button, .panel.panel-color a.holy, .panel.panel-color span.holy {
+  width: 160px;
+}
+/* line 25, ../sass/demo.scss */
+.panel :last-child {
+  margin-bottom: 1.25rem;
+}
+/* line 28, ../sass/demo.scss */
+.panel > h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 33, ../sass/demo.scss */
+.panel > h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+/* line 37, ../sass/demo.scss */
+.panel a + h4 {
+  margin-top: 0;
+}
+/* line 40, ../sass/demo.scss */
+.panel h5 {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #95a5a6;
+}
+/* line 46, ../sass/demo.scss */
+.panel button, .panel a.holy, .panel span.holy {
+  margin: 0 1.25rem 1.25rem 0;
+  vertical-align: bottom;
+}
